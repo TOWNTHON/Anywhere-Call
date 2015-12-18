@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD3D81B61C24260200E9AEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */; };
+		AD3D81B81C24260200E9AEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81B71C24260200E9AEB3 /* ViewController.swift */; };
+		AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3D81B91C24260200E9AEB3 /* Main.storyboard */; };
+		AD3D81BD1C24260200E9AEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3D81BC1C24260200E9AEB3 /* Assets.xcassets */; };
+		AD3D81C01C24260200E9AEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3D81BE1C24260200E9AEB3 /* LaunchScreen.storyboard */; };
+		AD3D81CB1C24260200E9AEB3 /* AnywhereCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81CA1C24260200E9AEB3 /* AnywhereCallTests.swift */; };
+		AD3D81D61C24260200E9AEB3 /* AnywhereCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81D51C24260200E9AEB3 /* AnywhereCallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD3D81C71C24260200E9AEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3D81AA1C24260200E9AEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3D81B11C24260200E9AEB3;
+			remoteInfo = AnywhereCall;
+		};
+		AD3D81D21C24260200E9AEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3D81AA1C24260200E9AEB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3D81B11C24260200E9AEB3;
+			remoteInfo = AnywhereCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD3D81B21C24260200E9AEB3 /* AnywhereCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnywhereCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD3D81B71C24260200E9AEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD3D81BA1C24260200E9AEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD3D81BC1C24260200E9AEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3D81BF1C24260200E9AEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3D81C11C24260200E9AEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3D81C61C24260200E9AEB3 /* AnywhereCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnywhereCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3D81CA1C24260200E9AEB3 /* AnywhereCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnywhereCallTests.swift; sourceTree = "<group>"; };
+		AD3D81CC1C24260200E9AEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3D81D11C24260200E9AEB3 /* AnywhereCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnywhereCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3D81D51C24260200E9AEB3 /* AnywhereCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnywhereCallUITests.swift; sourceTree = "<group>"; };
+		AD3D81D71C24260200E9AEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3D81AF1C24260200E9AEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3D81C31C24260200E9AEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3D81CE1C24260200E9AEB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3D81A91C24260200E9AEB3 = {
+			isa = PBXGroup;
+			children = (
+				AD3D81B41C24260200E9AEB3 /* AnywhereCall */,
+				AD3D81C91C24260200E9AEB3 /* AnywhereCallTests */,
+				AD3D81D41C24260200E9AEB3 /* AnywhereCallUITests */,
+				AD3D81B31C24260200E9AEB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3D81B31C24260200E9AEB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D81B21C24260200E9AEB3 /* AnywhereCall.app */,
+				AD3D81C61C24260200E9AEB3 /* AnywhereCallTests.xctest */,
+				AD3D81D11C24260200E9AEB3 /* AnywhereCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3D81B41C24260200E9AEB3 /* AnywhereCall */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */,
+				AD3D81B71C24260200E9AEB3 /* ViewController.swift */,
+				AD3D81B91C24260200E9AEB3 /* Main.storyboard */,
+				AD3D81BC1C24260200E9AEB3 /* Assets.xcassets */,
+				AD3D81BE1C24260200E9AEB3 /* LaunchScreen.storyboard */,
+				AD3D81C11C24260200E9AEB3 /* Info.plist */,
+			);
+			path = AnywhereCall;
+			sourceTree = "<group>";
+		};
+		AD3D81C91C24260200E9AEB3 /* AnywhereCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D81CA1C24260200E9AEB3 /* AnywhereCallTests.swift */,
+				AD3D81CC1C24260200E9AEB3 /* Info.plist */,
+			);
+			path = AnywhereCallTests;
+			sourceTree = "<group>";
+		};
+		AD3D81D41C24260200E9AEB3 /* AnywhereCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D81D51C24260200E9AEB3 /* AnywhereCallUITests.swift */,
+				AD3D81D71C24260200E9AEB3 /* Info.plist */,
+			);
+			path = AnywhereCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3D81B11C24260200E9AEB3 /* AnywhereCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3D81DA1C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCall" */;
+			buildPhases = (
+				AD3D81AE1C24260200E9AEB3 /* Sources */,
+				AD3D81AF1C24260200E9AEB3 /* Frameworks */,
+				AD3D81B01C24260200E9AEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnywhereCall;
+			productName = AnywhereCall;
+			productReference = AD3D81B21C24260200E9AEB3 /* AnywhereCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD3D81C51C24260200E9AEB3 /* AnywhereCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3D81DD1C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCallTests" */;
+			buildPhases = (
+				AD3D81C21C24260200E9AEB3 /* Sources */,
+				AD3D81C31C24260200E9AEB3 /* Frameworks */,
+				AD3D81C41C24260200E9AEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3D81C81C24260200E9AEB3 /* PBXTargetDependency */,
+			);
+			name = AnywhereCallTests;
+			productName = AnywhereCallTests;
+			productReference = AD3D81C61C24260200E9AEB3 /* AnywhereCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD3D81D01C24260200E9AEB3 /* AnywhereCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3D81E01C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCallUITests" */;
+			buildPhases = (
+				AD3D81CD1C24260200E9AEB3 /* Sources */,
+				AD3D81CE1C24260200E9AEB3 /* Frameworks */,
+				AD3D81CF1C24260200E9AEB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3D81D31C24260200E9AEB3 /* PBXTargetDependency */,
+			);
+			name = AnywhereCallUITests;
+			productName = AnywhereCallUITests;
+			productReference = AD3D81D11C24260200E9AEB3 /* AnywhereCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3D81AA1C24260200E9AEB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "広瀬緑";
+				TargetAttributes = {
+					AD3D81B11C24260200E9AEB3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					AD3D81C51C24260200E9AEB3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AD3D81B11C24260200E9AEB3;
+					};
+					AD3D81D01C24260200E9AEB3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = AD3D81B11C24260200E9AEB3;
+					};
+				};
+			};
+			buildConfigurationList = AD3D81AD1C24260200E9AEB3 /* Build configuration list for PBXProject "AnywhereCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD3D81A91C24260200E9AEB3;
+			productRefGroup = AD3D81B31C24260200E9AEB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3D81B11C24260200E9AEB3 /* AnywhereCall */,
+				AD3D81C51C24260200E9AEB3 /* AnywhereCallTests */,
+				AD3D81D01C24260200E9AEB3 /* AnywhereCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3D81B01C24260200E9AEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D81C01C24260200E9AEB3 /* LaunchScreen.storyboard in Resources */,
+				AD3D81BD1C24260200E9AEB3 /* Assets.xcassets in Resources */,
+				AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3D81C41C24260200E9AEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3D81CF1C24260200E9AEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3D81AE1C24260200E9AEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D81B81C24260200E9AEB3 /* ViewController.swift in Sources */,
+				AD3D81B61C24260200E9AEB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3D81C21C24260200E9AEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D81CB1C24260200E9AEB3 /* AnywhereCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3D81CD1C24260200E9AEB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D81D61C24260200E9AEB3 /* AnywhereCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD3D81C81C24260200E9AEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3D81B11C24260200E9AEB3 /* AnywhereCall */;
+			targetProxy = AD3D81C71C24260200E9AEB3 /* PBXContainerItemProxy */;
+		};
+		AD3D81D31C24260200E9AEB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3D81B11C24260200E9AEB3 /* AnywhereCall */;
+			targetProxy = AD3D81D21C24260200E9AEB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD3D81B91C24260200E9AEB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3D81BA1C24260200E9AEB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD3D81BE1C24260200E9AEB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3D81BF1C24260200E9AEB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD3D81D81C24260200E9AEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD3D81D91C24260200E9AEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3D81DB1C24260200E9AEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnywhereCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD3D81DC1C24260200E9AEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnywhereCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD3D81DE1C24260200E9AEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnywhereCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnywhereCall.app/AnywhereCall";
+			};
+			name = Debug;
+		};
+		AD3D81DF1C24260200E9AEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnywhereCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnywhereCall.app/AnywhereCall";
+			};
+			name = Release;
+		};
+		AD3D81E11C24260200E9AEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnywhereCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnywhereCall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AD3D81E21C24260200E9AEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnywhereCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnywhereCall;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3D81AD1C24260200E9AEB3 /* Build configuration list for PBXProject "AnywhereCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3D81D81C24260200E9AEB3 /* Debug */,
+				AD3D81D91C24260200E9AEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3D81DA1C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3D81DB1C24260200E9AEB3 /* Debug */,
+				AD3D81DC1C24260200E9AEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD3D81DD1C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3D81DE1C24260200E9AEB3 /* Debug */,
+				AD3D81DF1C24260200E9AEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD3D81E01C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3D81E11C24260200E9AEB3 /* Debug */,
+				AD3D81E21C24260200E9AEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD3D81AA1C24260200E9AEB3 /* Project object */;
+}
