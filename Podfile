@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'AnywhereCall' do
-
+  pod 'TwilioSDK'
 end
 
 target 'AnywhereCallTests' do

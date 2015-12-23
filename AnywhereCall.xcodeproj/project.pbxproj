@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		217B71711C2B046F00EEBAD4 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71701C2B046F00EEBAD4 /* Phone.swift */; };
+		612A2BDA1C769ECB96C56DB1 /* libPods-AnywhereCall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BFA6F924EE49653CD9625F /* libPods-AnywhereCall.a */; };
 		AD3D81B61C24260200E9AEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */; };
 		AD3D81B81C24260200E9AEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81B71C24260200E9AEB3 /* ViewController.swift */; };
 		AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3D81B91C24260200E9AEB3 /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		217B716F1C2B03C700EEBAD4 /* twilio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twilio-Bridging-Header.h"; sourceTree = "<group>"; };
+		217B71701C2B046F00EEBAD4 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		325A5D50CBE3B9542F3290CB /* Pods-AnywhereCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.debug.xcconfig"; sourceTree = "<group>"; };
+		80BFA6F924EE49653CD9625F /* libPods-AnywhereCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnywhereCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D81B21C24260200E9AEB3 /* AnywhereCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnywhereCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD3D81B71C24260200E9AEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 		AD3D81D11C24260200E9AEB3 /* AnywhereCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnywhereCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D81D51C24260200E9AEB3 /* AnywhereCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnywhereCallUITests.swift; sourceTree = "<group>"; };
 		AD3D81D71C24260200E9AEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612A2BDA1C769ECB96C56DB1 /* libPods-AnywhereCall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3884E5E43C60C0E9303AB330 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				325A5D50CBE3B9542F3290CB /* Pods-AnywhereCall.debug.xcconfig */,
+				FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD3D81A91C24260200E9AEB3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				AD3D81C91C24260200E9AEB3 /* AnywhereCallTests */,
 				AD3D81D41C24260200E9AEB3 /* AnywhereCallUITests */,
 				AD3D81B31C24260200E9AEB3 /* Products */,
+				3884E5E43C60C0E9303AB330 /* Pods */,
+				E803E73793A6E2A2764DA006 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +116,14 @@
 		AD3D81B41C24260200E9AEB3 /* AnywhereCall */ = {
 			isa = PBXGroup;
 			children = (
+				217B71701C2B046F00EEBAD4 /* Phone.swift */,
 				AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */,
 				AD3D81B71C24260200E9AEB3 /* ViewController.swift */,
 				AD3D81B91C24260200E9AEB3 /* Main.storyboard */,
 				AD3D81BC1C24260200E9AEB3 /* Assets.xcassets */,
 				AD3D81BE1C24260200E9AEB3 /* LaunchScreen.storyboard */,
 				AD3D81C11C24260200E9AEB3 /* Info.plist */,
+				217B716F1C2B03C700EEBAD4 /* twilio-Bridging-Header.h */,
 			);
 			path = AnywhereCall;
 			sourceTree = "<group>";
@@ -125,6 +146,14 @@
 			path = AnywhereCallUITests;
 			sourceTree = "<group>";
 		};
+		E803E73793A6E2A2764DA006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80BFA6F924EE49653CD9625F /* libPods-AnywhereCall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD3D81DA1C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCall" */;
 			buildPhases = (
+				C05D351BBB5DB8BD4103FB01 /* Check Pods Manifest.lock */,
 				AD3D81AE1C24260200E9AEB3 /* Sources */,
 				AD3D81AF1C24260200E9AEB3 /* Frameworks */,
 				AD3D81B01C24260200E9AEB3 /* Resources */,
+				FD7B91CA96483BA28EBDD94D /* Embed Pods Frameworks */,
+				43F22E1A400600A3DBE5B0E1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +283,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43F22E1A400600A3DBE5B0E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05D351BBB5DB8BD4103FB01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7B91CA96483BA28EBDD94D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD3D81AE1C24260200E9AEB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD3D81B81C24260200E9AEB3 /* ViewController.swift in Sources */,
+				217B71711C2B046F00EEBAD4 /* Phone.swift in Sources */,
 				AD3D81B61C24260200E9AEB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,23 +476,27 @@
 		};
 		AD3D81DB1C24260200E9AEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325A5D50CBE3B9542F3290CB /* Pods-AnywhereCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnywhereCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnywhereCall/twilio-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		AD3D81DC1C24260200E9AEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AnywhereCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnywhereCall/twilio-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +567,7 @@
 				AD3D81DC1C24260200E9AEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD3D81DD1C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCallTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +576,7 @@
 				AD3D81DF1C24260200E9AEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD3D81E01C24260200E9AEB3 /* Build configuration list for PBXNativeTarget "AnywhereCallUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +585,7 @@
 				AD3D81E21C24260200E9AEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

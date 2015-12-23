@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var phone:Phone = Phone()
+    
+    //Callボタン押下でtwilioから電話をかけます。
+    @IBAction func CallButton(sender: AnyObject) {
+        phone.sendCall()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
