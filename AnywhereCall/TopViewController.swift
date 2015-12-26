@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TopViewController: UIViewController {
 
     var phone:Phone = Phone()
     
