@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		217B71711C2B046F00EEBAD4 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B71701C2B046F00EEBAD4 /* Phone.swift */; };
-		612A2BDA1C769ECB96C56DB1 /* libPods-AnywhereCall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BFA6F924EE49653CD9625F /* libPods-AnywhereCall.a */; };
+		684EFEAE8258DA29DC509566 /* Pods_AnywhereCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56003842D2CF34B782B3633B /* Pods_AnywhereCall.framework */; };
 		AD3D81B61C24260200E9AEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */; };
 		AD3D81B81C24260200E9AEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81B71C24260200E9AEB3 /* ViewController.swift */; };
 		AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3D81B91C24260200E9AEB3 /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 		217B716F1C2B03C700EEBAD4 /* twilio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twilio-Bridging-Header.h"; sourceTree = "<group>"; };
 		217B71701C2B046F00EEBAD4 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
 		325A5D50CBE3B9542F3290CB /* Pods-AnywhereCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.debug.xcconfig"; sourceTree = "<group>"; };
-		80BFA6F924EE49653CD9625F /* libPods-AnywhereCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnywhereCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56003842D2CF34B782B3633B /* Pods_AnywhereCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnywhereCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D81B21C24260200E9AEB3 /* AnywhereCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnywhereCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD3D81B71C24260200E9AEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612A2BDA1C769ECB96C56DB1 /* libPods-AnywhereCall.a in Frameworks */,
+				684EFEAE8258DA29DC509566 /* Pods_AnywhereCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 		E803E73793A6E2A2764DA006 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				80BFA6F924EE49653CD9625F /* libPods-AnywhereCall.a */,
+				56003842D2CF34B782B3633B /* Pods_AnywhereCall.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

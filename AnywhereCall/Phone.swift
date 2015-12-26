@@ -5,7 +5,7 @@
 //  Created by kosuke ito on 2015/12/23.
 //  Copyright © 2015年 kosuke ito. All rights reserved.
 //
-
+import SwiftyJSON
 public class Phone {
  
     func sendCall()
@@ -21,7 +21,7 @@ public class Phone {
 
         
         // twilio APIに渡すリクエスト情報の設定
-        let request = NSMutableURLRequest(URL: NSURL(string:"https://\(twilioSID):\(twilioSecret)@api.twilio.com/2010-04-01/Accounts/\(twilioSID)/Calls")!)
+        let request = NSMutableURLRequest(URL: NSURL(string:"https://\(twilioSID):\(twilioSecret)@api.twilio.com/2010-04-01/Accounts/\(twilioSID)/Calls.json")!)
         request.HTTPMethod = "POST"
         request.HTTPBody = "From=\(fromNumber)&To=\(toNumber)&Url=https://demo.twilio.com/welcome/voice/ja/".dataUsingEncoding(NSUTF8StringEncoding)
         
@@ -32,9 +32,15 @@ public class Phone {
             if let data = data, responseDetails = NSString(data: data, encoding: NSUTF8StringEncoding) {
                 // Success
                 print("Response: \(responseDetails)")
+                
+                let json = JSON(data:data)
+                if let sid = json["sid"].string{
+                    print("SID++++++:\(sid)")
+                }
+                
             } else {
                 // Failure
-                print("Error: \(error)")
+                //print("Error: \(error)")
             }
         }).resume()
     }

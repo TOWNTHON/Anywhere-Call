@@ -7,88 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3708BEAE1C518891CF993AE5E7DD217A /* Pods-AnywhereCall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3495E62AF5997EE2853526CD010762 /* Pods-AnywhereCall-dummy.m */; };
-		866A24A71F9494557E8258F4BFA1225E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0096263152C9E26839314DAA6EA45CCF /* Pods-AnywhereCall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E18B11D509CFB8E6DDBF9FD0B067B55 /* Pods-AnywhereCall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC1EC684248336D42B769F32D32ADC8 /* Pods-AnywhereCall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B79B0AB33C285097A80315AC8C6DF7 /* Pods-AnywhereCall-dummy.m */; };
+		8C018C0894B19790054D436D19C00D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8E6C18D35B2EE61E2D0D11512E67466A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FF25BA4ACFD8AF74CFA1E6EB8E782 /* SwiftyJSON.swift */; };
+		965838CB2DCF99C8EBAAE926904401E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B3CCE60956A8194ADCF8763520AFA9D2 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7936B3AA1037B36511AFC58D516604C /* SwiftyJSON-dummy.m */; };
+		E8A6049527E01651969214DEF35FE916 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACD5ABC41EAA540B04DF6D8B860D776 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		98363A43C812578C9931921944B3E8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A3E29A532A82614F3C465111DEC0D3;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		04E372CE50761B8F9D64A0888A5C9420 /* dtmf_5.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_5.wav; path = Resources/dtmf_5.wav; sourceTree = "<group>"; };
-		0E160312780BDDFA92351B0099E2031E /* libTwilioClient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = Libraries/libTwilioClient.a; sourceTree = "<group>"; };
-		236561E426CB4B85E338D0CD8E61A2BD /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
-		23AF943126F9A797BCFFB2F095C61D07 /* dtmf_2.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_2.wav; path = Resources/dtmf_2.wav; sourceTree = "<group>"; };
-		3809B43CA8F28C383487E698DD0841F3 /* dtmf_7.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_7.wav; path = Resources/dtmf_7.wav; sourceTree = "<group>"; };
+		07B7F79E2617F5B2A409CC4BFF51E950 /* incoming.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = incoming.wav; path = Resources/incoming.wav; sourceTree = "<group>"; };
+		1B65A354B1DF61D3D53C53FA7C67577C /* dtmf_4.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_4.wav; path = Resources/dtmf_4.wav; sourceTree = "<group>"; };
+		1E18B11D509CFB8E6DDBF9FD0B067B55 /* Pods-AnywhereCall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnywhereCall-umbrella.h"; sourceTree = "<group>"; };
+		1EE0C0FB839C911447FB25E4BFE06C90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F97EEBA2FE2BB2D5BA28B57F3E21B6 /* TCPresenceEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCPresenceEvent.h; path = Headers/TCPresenceEvent.h; sourceTree = "<group>"; };
+		3ACD5ABC41EAA540B04DF6D8B860D776 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		539C13A64FBF5A6115251CC49B253DFE /* Pods-AnywhereCall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnywhereCall-resources.sh"; sourceTree = "<group>"; };
-		57265A6CF274E263FD49D5EBBCA70168 /* libPods-AnywhereCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnywhereCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B14213E0ED29F538371FC0F920A010A /* TCConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnection.h; path = Headers/TCConnection.h; sourceTree = "<group>"; };
-		6D9DB79F80B65F7F55A5A37E9BED2C36 /* Pods-AnywhereCall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnywhereCall-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6DE11AD59FA9A53E8055B8B3DC89564B /* incoming.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = incoming.wav; path = Resources/incoming.wav; sourceTree = "<group>"; };
-		6F93FECC773BB054612FC825FFC2029F /* TCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDevice.h; path = Headers/TCDevice.h; sourceTree = "<group>"; };
-		7CDDCF3F242C5DC3B6B83A72BBB8761B /* Pods-AnywhereCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnywhereCall.debug.xcconfig"; sourceTree = "<group>"; };
-		86479D40B357B36A181713F7B9AC8C28 /* dtmf_hash.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_hash.wav; path = Resources/dtmf_hash.wav; sourceTree = "<group>"; };
-		8EADBE6A0ABC23A66E45B696DFEE9407 /* Pods-AnywhereCall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnywhereCall-frameworks.sh"; sourceTree = "<group>"; };
-		90598BD0949AFC8C6395A412835383A7 /* Pods-AnywhereCall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnywhereCall-acknowledgements.plist"; sourceTree = "<group>"; };
-		90CB4B499791AB4FF9D9877D20788FE2 /* dtmf_9.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_9.wav; path = Resources/dtmf_9.wav; sourceTree = "<group>"; };
-		938F75ABFDCF0BDC412729F294C1E4D6 /* dtmf_star.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_star.wav; path = Resources/dtmf_star.wav; sourceTree = "<group>"; };
-		990B5B7345EFC2BC49E1182B22A33CA3 /* TwilioClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwilioClient.h; path = Headers/TwilioClient.h; sourceTree = "<group>"; };
-		A22A0FB660623D6A393038FE727AA1C2 /* TCConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnectionDelegate.h; path = Headers/TCConnectionDelegate.h; sourceTree = "<group>"; };
-		B4A3690902911C3F2A49B076DD056C11 /* outgoing.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = outgoing.wav; path = Resources/outgoing.wav; sourceTree = "<group>"; };
-		B68FF17F95E57A04903A3D4E90DBCB12 /* TCPresenceEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCPresenceEvent.h; path = Headers/TCPresenceEvent.h; sourceTree = "<group>"; };
-		BA3495E62AF5997EE2853526CD010762 /* Pods-AnywhereCall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnywhereCall-dummy.m"; sourceTree = "<group>"; };
+		40B79B0AB33C285097A80315AC8C6DF7 /* Pods-AnywhereCall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnywhereCall-dummy.m"; sourceTree = "<group>"; };
+		441F267406E92E529D8714E27801A656 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		444D340F54FE2412A47D0CC8D697E2A2 /* TCConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnectionDelegate.h; path = Headers/TCConnectionDelegate.h; sourceTree = "<group>"; };
+		46478152F33D995F8D1B8D276A1CF68B /* outgoing.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = outgoing.wav; path = Resources/outgoing.wav; sourceTree = "<group>"; };
+		4ACD065767F1BD6A652D391308ECF071 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		51457158CB80A4C1FEF2B2AF64C3C7FA /* Pods_AnywhereCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnywhereCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517FF25BA4ACFD8AF74CFA1E6EB8E782 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		52268B9D5ACD2FAF4B6CE249A7118129 /* dtmf_star.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_star.wav; path = Resources/dtmf_star.wav; sourceTree = "<group>"; };
+		623169252A0610F7A2BB8C5E60B8366A /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
+		63B41A1B189DFDBDA857E95E950A3F6E /* dtmf_6.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_6.wav; path = Resources/dtmf_6.wav; sourceTree = "<group>"; };
+		6EBE1B23701F44C062FA0E5A053275D7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73845A3D975FE30A949474F6B20910D2 /* Pods-AnywhereCall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnywhereCall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75E5789392A663896A2CCF64DF567E70 /* dtmf_8.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_8.wav; path = Resources/dtmf_8.wav; sourceTree = "<group>"; };
+		78A5A990DA9164E4B068E418E9066DA5 /* dtmf_7.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_7.wav; path = Resources/dtmf_7.wav; sourceTree = "<group>"; };
+		7D0A0917872274EDB7E4F1CBA8F9647F /* dtmf_0.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_0.wav; path = Resources/dtmf_0.wav; sourceTree = "<group>"; };
+		8414448A70261AC2A2EB03CE311518E6 /* dtmf_1.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_1.wav; path = Resources/dtmf_1.wav; sourceTree = "<group>"; };
+		8DB13D155C3122077E1ED1F7386DAA4D /* dtmf_5.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_5.wav; path = Resources/dtmf_5.wav; sourceTree = "<group>"; };
+		91D3EC070D67D0B24A4B88B626E64C1C /* Pods-AnywhereCall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnywhereCall-resources.sh"; sourceTree = "<group>"; };
+		9A71D3C841F135F0F7EF7B1C1BF20BFC /* Pods-AnywhereCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnywhereCall.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA5B091DB21379422CEC82D3DB4EF8D /* Pods-AnywhereCall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AnywhereCall.modulemap"; sourceTree = "<group>"; };
+		9EE5C4B0726D91CEBF93B673F5844F44 /* libTwilioClient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = Libraries/libTwilioClient.a; sourceTree = "<group>"; };
+		9F995612F7B0C07F019D47FF52D220E9 /* TCDeviceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDeviceDelegate.h; path = Headers/TCDeviceDelegate.h; sourceTree = "<group>"; };
+		A26B37687F2ECECF90AC4B37B56B135B /* Pods-AnywhereCall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnywhereCall-acknowledgements.plist"; sourceTree = "<group>"; };
+		B294683255D285B9CC6E662AABAD9C29 /* dtmf_3.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_3.wav; path = Resources/dtmf_3.wav; sourceTree = "<group>"; };
+		B7936B3AA1037B36511AFC58D516604C /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDDAF4FE0B6D401348F387F21E85F835 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/libcrypto.a; sourceTree = "<group>"; };
-		C1F9F02A64F039E1D0B8EC6217D2EA60 /* TCDeviceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDeviceDelegate.h; path = Headers/TCDeviceDelegate.h; sourceTree = "<group>"; };
-		CEBA1C568779A0103EC7BFECD83129D8 /* dtmf_4.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_4.wav; path = Resources/dtmf_4.wav; sourceTree = "<group>"; };
-		DD3A9CC9814665DBCEAC6153C0755AD0 /* dtmf_6.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_6.wav; path = Resources/dtmf_6.wav; sourceTree = "<group>"; };
-		DF2E2D18B1D79707FBAAA11E9A01A985 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = Libraries/libssl.a; sourceTree = "<group>"; };
-		E153C9AC73200710C6BDAF76F95E8F3E /* dtmf_3.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_3.wav; path = Resources/dtmf_3.wav; sourceTree = "<group>"; };
-		F0503C14B3B55BADAF8B6C26F57A2AD0 /* dtmf_0.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_0.wav; path = Resources/dtmf_0.wav; sourceTree = "<group>"; };
-		F8BCC35FEB03C17BBDCA714C0CA92518 /* dtmf_8.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_8.wav; path = Resources/dtmf_8.wav; sourceTree = "<group>"; };
-		FA862F42582A1B8402697F7EC58391CA /* disconnect.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = disconnect.wav; path = Resources/disconnect.wav; sourceTree = "<group>"; };
-		FD069B433EE747EDBB86C1FF340FA09D /* dtmf_1.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_1.wav; path = Resources/dtmf_1.wav; sourceTree = "<group>"; };
+		C1F74C5D6884D49CF25321C17F4F8764 /* dtmf_hash.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_hash.wav; path = Resources/dtmf_hash.wav; sourceTree = "<group>"; };
+		C23CA73110040840E731DC75C1ABCACB /* Pods-AnywhereCall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnywhereCall-frameworks.sh"; sourceTree = "<group>"; };
+		C7AAEE082EBE8ED848130B4C61A5F816 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		D6C62052B0671E10F8B8C7703E84DD29 /* TCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDevice.h; path = Headers/TCDevice.h; sourceTree = "<group>"; };
+		D8F15849110FF42E51576E6F8DF367D4 /* TCConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnection.h; path = Headers/TCConnection.h; sourceTree = "<group>"; };
+		E20B41D1B7D53F69675A02A7E767F0F1 /* dtmf_9.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_9.wav; path = Resources/dtmf_9.wav; sourceTree = "<group>"; };
+		E84F65EEC21FB65D1FE67ACC44017E44 /* TwilioClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwilioClient.h; path = Headers/TwilioClient.h; sourceTree = "<group>"; };
+		EDBA8C8FED0975EEF7AA3412335FEE76 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/libcrypto.a; sourceTree = "<group>"; };
+		EFFF0505982FE28181ABE88335CC15AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F8AE2FFB81E2B9F5F646E133180ED /* dtmf_2.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_2.wav; path = Resources/dtmf_2.wav; sourceTree = "<group>"; };
+		FCC3578498936D4030D5F719DB127CD1 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = Libraries/libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F09906F576DEC4EB27FABE4397CBAF7 /* Frameworks */ = {
+		A15161C7591E8FFD52D5322A0C82CF16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866A24A71F9494557E8258F4BFA1225E /* Foundation.framework in Frameworks */,
+				965838CB2DCF99C8EBAAE926904401E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EC174FC10D9CE83D5EC1B102E9BEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C018C0894B19790054D436D19C00D8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0593333144BC41823AB737AC81A66FCD /* Pods-AnywhereCall */ = {
+		205167036C1F90AEEE26E7DECB1BBD0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6D9DB79F80B65F7F55A5A37E9BED2C36 /* Pods-AnywhereCall-acknowledgements.markdown */,
-				90598BD0949AFC8C6395A412835383A7 /* Pods-AnywhereCall-acknowledgements.plist */,
-				BA3495E62AF5997EE2853526CD010762 /* Pods-AnywhereCall-dummy.m */,
-				8EADBE6A0ABC23A66E45B696DFEE9407 /* Pods-AnywhereCall-frameworks.sh */,
-				539C13A64FBF5A6115251CC49B253DFE /* Pods-AnywhereCall-resources.sh */,
-				7CDDCF3F242C5DC3B6B83A72BBB8761B /* Pods-AnywhereCall.debug.xcconfig */,
-				236561E426CB4B85E338D0CD8E61A2BD /* Pods-AnywhereCall.release.xcconfig */,
+				EFFF0505982FE28181ABE88335CC15AC /* Info.plist */,
+				441F267406E92E529D8714E27801A656 /* SwiftyJSON.modulemap */,
+				4ACD065767F1BD6A652D391308ECF071 /* SwiftyJSON.xcconfig */,
+				B7936B3AA1037B36511AFC58D516604C /* SwiftyJSON-dummy.m */,
+				C7AAEE082EBE8ED848130B4C61A5F816 /* SwiftyJSON-prefix.pch */,
+				3ACD5ABC41EAA540B04DF6D8B860D776 /* SwiftyJSON-umbrella.h */,
 			);
-			name = "Pods-AnywhereCall";
-			path = "Target Support Files/Pods-AnywhereCall";
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		41EE07E3AF2A1C24146B683D6B5155E9 /* Products */ = {
+		367E5F160F24DF4411C6F3D0A6207658 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				57265A6CF274E263FD49D5EBBCA70168 /* libPods-AnywhereCall.a */,
+				7D0A0917872274EDB7E4F1CBA8F9647F /* dtmf_0.wav */,
+				8414448A70261AC2A2EB03CE311518E6 /* dtmf_1.wav */,
+				FA2F8AE2FFB81E2B9F5F646E133180ED /* dtmf_2.wav */,
+				B294683255D285B9CC6E662AABAD9C29 /* dtmf_3.wav */,
+				1B65A354B1DF61D3D53C53FA7C67577C /* dtmf_4.wav */,
+				8DB13D155C3122077E1ED1F7386DAA4D /* dtmf_5.wav */,
+				63B41A1B189DFDBDA857E95E950A3F6E /* dtmf_6.wav */,
+				78A5A990DA9164E4B068E418E9066DA5 /* dtmf_7.wav */,
+				75E5789392A663896A2CCF64DF567E70 /* dtmf_8.wav */,
+				E20B41D1B7D53F69675A02A7E767F0F1 /* dtmf_9.wav */,
+				C1F74C5D6884D49CF25321C17F4F8764 /* dtmf_hash.wav */,
+				52268B9D5ACD2FAF4B6CE249A7118129 /* dtmf_star.wav */,
+				07B7F79E2617F5B2A409CC4BFF51E950 /* incoming.wav */,
+				46478152F33D995F8D1B8D276A1CF68B /* outgoing.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4FA4556E170D9FBA08A98B2048048246 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC52D55EA0B463BC1CC305C3C9ABBC3 /* Pods-AnywhereCall */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		555BBCABAD463D94D9E87A3746842B90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51457158CB80A4C1FEF2B2AF64C3C7FA /* Pods_AnywhereCall.framework */,
+				6EBE1B23701F44C062FA0E5A053275D7 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52AF75E98EFA7AA6DB5D944224033FBB /* Targets Support Files */ = {
+		5EE0A01DEC6BE24A9F09909C78F80F44 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0593333144BC41823AB737AC81A66FCD /* Pods-AnywhereCall */,
+				706A2286A797C007A858A49CB8423448 /* SwiftyJSON */,
+				FF00197118E521AFD011EE6483A96748 /* TwilioSDK */,
 			);
-			name = "Targets Support Files";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		706A2286A797C007A858A49CB8423448 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				517FF25BA4ACFD8AF74CFA1E6EB8E782 /* SwiftyJSON.swift */,
+				205167036C1F90AEEE26E7DECB1BBD0F /* Support Files */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -96,32 +168,20 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F082EC7E41DBAA183CFD60CBEFE207B4 /* Pods */,
-				41EE07E3AF2A1C24146B683D6B5155E9 /* Products */,
-				52AF75E98EFA7AA6DB5D944224033FBB /* Targets Support Files */,
+				5EE0A01DEC6BE24A9F09909C78F80F44 /* Pods */,
+				555BBCABAD463D94D9E87A3746842B90 /* Products */,
+				4FA4556E170D9FBA08A98B2048048246 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A3B999D77F5A926EDDD1128D798236D2 /* Resources */ = {
+		A221CC76A1B97AF4A97B6818D0B97FA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA862F42582A1B8402697F7EC58391CA /* disconnect.wav */,
-				F0503C14B3B55BADAF8B6C26F57A2AD0 /* dtmf_0.wav */,
-				FD069B433EE747EDBB86C1FF340FA09D /* dtmf_1.wav */,
-				23AF943126F9A797BCFFB2F095C61D07 /* dtmf_2.wav */,
-				E153C9AC73200710C6BDAF76F95E8F3E /* dtmf_3.wav */,
-				CEBA1C568779A0103EC7BFECD83129D8 /* dtmf_4.wav */,
-				04E372CE50761B8F9D64A0888A5C9420 /* dtmf_5.wav */,
-				DD3A9CC9814665DBCEAC6153C0755AD0 /* dtmf_6.wav */,
-				3809B43CA8F28C383487E698DD0841F3 /* dtmf_7.wav */,
-				F8BCC35FEB03C17BBDCA714C0CA92518 /* dtmf_8.wav */,
-				90CB4B499791AB4FF9D9877D20788FE2 /* dtmf_9.wav */,
-				86479D40B357B36A181713F7B9AC8C28 /* dtmf_hash.wav */,
-				938F75ABFDCF0BDC412729F294C1E4D6 /* dtmf_star.wav */,
-				6DE11AD59FA9A53E8055B8B3DC89564B /* incoming.wav */,
-				B4A3690902911C3F2A49B076DD056C11 /* outgoing.wav */,
+				EDBA8C8FED0975EEF7AA3412335FEE76 /* libcrypto.a */,
+				FCC3578498936D4030D5F719DB127CD1 /* libssl.a */,
+				9EE5C4B0726D91CEBF93B673F5844F44 /* libTwilioClient.a */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -140,57 +200,95 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CABAA6B49344E510EBC3EA913CE6BA7B /* Frameworks */ = {
+		ECC52D55EA0B463BC1CC305C3C9ABBC3 /* Pods-AnywhereCall */ = {
 			isa = PBXGroup;
 			children = (
-				BDDAF4FE0B6D401348F387F21E85F835 /* libcrypto.a */,
-				DF2E2D18B1D79707FBAAA11E9A01A985 /* libssl.a */,
-				0E160312780BDDFA92351B0099E2031E /* libTwilioClient.a */,
+				1EE0C0FB839C911447FB25E4BFE06C90 /* Info.plist */,
+				9DA5B091DB21379422CEC82D3DB4EF8D /* Pods-AnywhereCall.modulemap */,
+				73845A3D975FE30A949474F6B20910D2 /* Pods-AnywhereCall-acknowledgements.markdown */,
+				A26B37687F2ECECF90AC4B37B56B135B /* Pods-AnywhereCall-acknowledgements.plist */,
+				40B79B0AB33C285097A80315AC8C6DF7 /* Pods-AnywhereCall-dummy.m */,
+				C23CA73110040840E731DC75C1ABCACB /* Pods-AnywhereCall-frameworks.sh */,
+				91D3EC070D67D0B24A4B88B626E64C1C /* Pods-AnywhereCall-resources.sh */,
+				1E18B11D509CFB8E6DDBF9FD0B067B55 /* Pods-AnywhereCall-umbrella.h */,
+				9A71D3C841F135F0F7EF7B1C1BF20BFC /* Pods-AnywhereCall.debug.xcconfig */,
+				623169252A0610F7A2BB8C5E60B8366A /* Pods-AnywhereCall.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-AnywhereCall";
+			path = "Target Support Files/Pods-AnywhereCall";
 			sourceTree = "<group>";
 		};
-		F082EC7E41DBAA183CFD60CBEFE207B4 /* Pods */ = {
+		FF00197118E521AFD011EE6483A96748 /* TwilioSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F8956BADAF1DBBD6E3C9B3CD38F48ED0 /* TwilioSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F8956BADAF1DBBD6E3C9B3CD38F48ED0 /* TwilioSDK */ = {
-			isa = PBXGroup;
-			children = (
-				6B14213E0ED29F538371FC0F920A010A /* TCConnection.h */,
-				A22A0FB660623D6A393038FE727AA1C2 /* TCConnectionDelegate.h */,
-				6F93FECC773BB054612FC825FFC2029F /* TCDevice.h */,
-				C1F9F02A64F039E1D0B8EC6217D2EA60 /* TCDeviceDelegate.h */,
-				B68FF17F95E57A04903A3D4E90DBCB12 /* TCPresenceEvent.h */,
-				990B5B7345EFC2BC49E1182B22A33CA3 /* TwilioClient.h */,
-				CABAA6B49344E510EBC3EA913CE6BA7B /* Frameworks */,
-				A3B999D77F5A926EDDD1128D798236D2 /* Resources */,
+				D8F15849110FF42E51576E6F8DF367D4 /* TCConnection.h */,
+				444D340F54FE2412A47D0CC8D697E2A2 /* TCConnectionDelegate.h */,
+				D6C62052B0671E10F8B8C7703E84DD29 /* TCDevice.h */,
+				9F995612F7B0C07F019D47FF52D220E9 /* TCDeviceDelegate.h */,
+				32F97EEBA2FE2BB2D5BA28B57F3E21B6 /* TCPresenceEvent.h */,
+				E84F65EEC21FB65D1FE67ACC44017E44 /* TwilioClient.h */,
+				A221CC76A1B97AF4A97B6818D0B97FA7 /* Frameworks */,
+				367E5F160F24DF4411C6F3D0A6207658 /* Resources */,
 			);
 			path = TwilioSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		0E11A25B9B28FB2DE6C5F620331411F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0096263152C9E26839314DAA6EA45CCF /* Pods-AnywhereCall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627A7B49A3676263817AAB565C83F918 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A6049527E01651969214DEF35FE916 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		455654D3C4CE72BB81F0EC6E3F982FF6 /* Pods-AnywhereCall */ = {
+		616FFE65BB934E95E9F628A7D73E9E0D /* Pods-AnywhereCall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8381EAE1F081F319495846DE741CDA4 /* Build configuration list for PBXNativeTarget "Pods-AnywhereCall" */;
+			buildConfigurationList = 8C8F3C385549E9DB39B9454CCBC2BB4B /* Build configuration list for PBXNativeTarget "Pods-AnywhereCall" */;
 			buildPhases = (
-				F1A6DA27F2536C20823DCAE0E2B7202C /* Sources */,
-				7F09906F576DEC4EB27FABE4397CBAF7 /* Frameworks */,
+				E9696F832F7754E6388CABC1A8B473AC /* Sources */,
+				C2EC174FC10D9CE83D5EC1B102E9BEA4 /* Frameworks */,
+				0E11A25B9B28FB2DE6C5F620331411F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B58D7DB3BFB4B3490825FCB8DC9C91B /* PBXTargetDependency */,
+			);
+			name = "Pods-AnywhereCall";
+			productName = "Pods-AnywhereCall";
+			productReference = 51457158CB80A4C1FEF2B2AF64C3C7FA /* Pods_AnywhereCall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3A3E29A532A82614F3C465111DEC0D3 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB64A230A52C695F44771F9AD24916A /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				16C8731917C6952FA7B583EDE43D45FD /* Sources */,
+				A15161C7591E8FFD52D5322A0C82CF16 /* Frameworks */,
+				627A7B49A3676263817AAB565C83F918 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-AnywhereCall";
-			productName = "Pods-AnywhereCall";
-			productReference = 57265A6CF274E263FD49D5EBBCA70168 /* libPods-AnywhereCall.a */;
-			productType = "com.apple.product-type.library.static";
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 6EBE1B23701F44C062FA0E5A053275D7 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,58 +307,159 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 41EE07E3AF2A1C24146B683D6B5155E9 /* Products */;
+			productRefGroup = 555BBCABAD463D94D9E87A3746842B90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				455654D3C4CE72BB81F0EC6E3F982FF6 /* Pods-AnywhereCall */,
+				616FFE65BB934E95E9F628A7D73E9E0D /* Pods-AnywhereCall */,
+				F3A3E29A532A82614F3C465111DEC0D3 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1A6DA27F2536C20823DCAE0E2B7202C /* Sources */ = {
+		16C8731917C6952FA7B583EDE43D45FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3708BEAE1C518891CF993AE5E7DD217A /* Pods-AnywhereCall-dummy.m in Sources */,
+				B3CCE60956A8194ADCF8763520AFA9D2 /* SwiftyJSON-dummy.m in Sources */,
+				8E6C18D35B2EE61E2D0D11512E67466A /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9696F832F7754E6388CABC1A8B473AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC1EC684248336D42B769F32D32ADC8 /* Pods-AnywhereCall-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		1CEF3F95576EB9E133DDBED672310124 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CDDCF3F242C5DC3B6B83A72BBB8761B /* Pods-AnywhereCall.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		6B58D7DB3BFB4B3490825FCB8DC9C91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = F3A3E29A532A82614F3C465111DEC0D3 /* SwiftyJSON */;
+			targetProxy = 98363A43C812578C9931921944B3E8DB /* PBXContainerItemProxy */;
 		};
-		22E461D1177C5BF7FCCC91070CA14F07 /* Release */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73087F172F4C62CC825F73E70CF35810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 236561E426CB4B85E338D0CD8E61A2BD /* Pods-AnywhereCall.release.xcconfig */;
+			baseConfigurationReference = 623169252A0610F7A2BB8C5E60B8366A /* Pods-AnywhereCall.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AnywhereCall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_AnywhereCall;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8934A6C5BA53D77006481F41C4B20BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACD065767F1BD6A652D391308ECF071 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A52A7B2A0AF2817A48AE572302C8DB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A71D3C841F135F0F7EF7B1C1BF20BFC /* Pods-AnywhereCall.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AnywhereCall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AnywhereCall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFD65B420EE1A17EB31F651EB59168B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACD065767F1BD6A652D391308ECF071 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -349,11 +548,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8381EAE1F081F319495846DE741CDA4 /* Build configuration list for PBXNativeTarget "Pods-AnywhereCall" */ = {
+		3CB64A230A52C695F44771F9AD24916A /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CEF3F95576EB9E133DDBED672310124 /* Debug */,
-				22E461D1177C5BF7FCCC91070CA14F07 /* Release */,
+				8934A6C5BA53D77006481F41C4B20BF5 /* Debug */,
+				BEFD65B420EE1A17EB31F651EB59168B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8F3C385549E9DB39B9454CCBC2BB4B /* Build configuration list for PBXNativeTarget "Pods-AnywhereCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A7B2A0AF2817A48AE572302C8DB7A /* Debug */,
+				73087F172F4C62CC825F73E70CF35810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

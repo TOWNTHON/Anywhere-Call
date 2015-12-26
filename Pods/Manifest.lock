@@ -1,10 +1,13 @@
 PODS:
+  - SwiftyJSON (2.3.2)
   - TwilioSDK (1.2.7)
 
 DEPENDENCIES:
+  - SwiftyJSON
   - TwilioSDK
 
 SPEC CHECKSUMS:
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   TwilioSDK: d3982acf6880ddf3ce57c4444e021a71c5f35653
 
 COCOAPODS: 0.39.0
