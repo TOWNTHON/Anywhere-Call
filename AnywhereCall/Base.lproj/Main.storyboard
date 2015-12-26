@@ -165,6 +165,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-pM-uSa">
                                 <rect key="frame" x="228" y="182" width="165" height="30"/>
                                 <state key="normal" title="プロフィール写真を選ぶ"/>
+                                <connections>
+                                    <action selector="selectProfileImageButton:" destination="TKO-aL-Cuh" eventType="touchUpInside" id="SsA-dp-3Bf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d44-oq-3Fu">
                                 <rect key="frame" x="235" y="365" width="150" height="30"/>

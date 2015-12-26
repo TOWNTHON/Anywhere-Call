@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileImageViewController: UIViewController {
+class ProfileImageViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +21,60 @@ class ProfileImageViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func selectProfileImageButton(sender: AnyObject) {
+        let alertController = UIAlertController(title: "写真を選択してください", message: "", preferredStyle: .ActionSheet)
+        let cameraAction = UIAlertAction(title: "カメラで撮影する", style: .Default) {
+            action in
+            print("Pushed Camera")
+            self.pickImageFromCamera()
+        }
+        let libraryAction = UIAlertAction(title: "ライブラリから選択する", style: .Default) {
+            action in
+            print("Pushed Library")
+            self.pickImageFromLibrary()
+            
+        }
+        let cancelAction = UIAlertAction(title: "キャンセル", style: .Cancel) {
+            action in
+            print("Pushed CANCEL")
+        }
+        
+        alertController.addAction(cameraAction)
+        alertController.addAction(libraryAction)
+        alertController.addAction(cancelAction)
+        presentViewController(alertController, animated: true, completion: nil)
     }
-    */
-
+    
+    // 写真を撮ってそれを選択
+    func pickImageFromCamera() {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera) {
+            let controller = UIImagePickerController()
+            controller.delegate = self
+            controller.sourceType = UIImagePickerControllerSourceType.Camera
+            self.presentViewController(controller, animated: true, completion: nil)
+        }
+    }
+    
+    // ライブラリから写真を選択する
+    func pickImageFromLibrary() {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
+            let controller = UIImagePickerController()
+            controller.delegate = self
+            controller.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+            self.presentViewController(controller, animated: true, completion: nil)
+        }
+    }
+    
+    // 写真を選択した時に呼ばれる
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]){
+        
+        // 選択した画像パスを取得
+        if info[UIImagePickerControllerOriginalImage] != nil {
+            let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+            print(image)
+        }
+    
+        picker.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
 }
