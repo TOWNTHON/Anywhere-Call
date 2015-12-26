@@ -27,50 +27,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07B7F79E2617F5B2A409CC4BFF51E950 /* incoming.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = incoming.wav; path = Resources/incoming.wav; sourceTree = "<group>"; };
-		1B65A354B1DF61D3D53C53FA7C67577C /* dtmf_4.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_4.wav; path = Resources/dtmf_4.wav; sourceTree = "<group>"; };
+		0090856FE72A6EB2B280285A27315F6C /* dtmf_5.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_5.wav; path = Resources/dtmf_5.wav; sourceTree = "<group>"; };
+		03BDAB9471F4297F4747CB5EC998D3F6 /* libTwilioClient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = Libraries/libTwilioClient.a; sourceTree = "<group>"; };
+		03E3B8E6E84CDD1324118497B2985510 /* dtmf_4.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_4.wav; path = Resources/dtmf_4.wav; sourceTree = "<group>"; };
+		0E4AF679F6C7A160AE9A7805253F9A20 /* dtmf_star.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_star.wav; path = Resources/dtmf_star.wav; sourceTree = "<group>"; };
+		136877E273FFB8E33CA835ABEA5DD9EF /* dtmf_1.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_1.wav; path = Resources/dtmf_1.wav; sourceTree = "<group>"; };
+		1B8800E3C654A45E1E617597858B239C /* incoming.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = incoming.wav; path = Resources/incoming.wav; sourceTree = "<group>"; };
 		1E18B11D509CFB8E6DDBF9FD0B067B55 /* Pods-AnywhereCall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnywhereCall-umbrella.h"; sourceTree = "<group>"; };
 		1EE0C0FB839C911447FB25E4BFE06C90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32F97EEBA2FE2BB2D5BA28B57F3E21B6 /* TCPresenceEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCPresenceEvent.h; path = Headers/TCPresenceEvent.h; sourceTree = "<group>"; };
+		1F08F3B8523E985ED66C1F92A9ED62E3 /* dtmf_0.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_0.wav; path = Resources/dtmf_0.wav; sourceTree = "<group>"; };
+		249C9247DD0E86C50887DBE1EC1749D0 /* TCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDevice.h; path = Headers/TCDevice.h; sourceTree = "<group>"; };
 		3ACD5ABC41EAA540B04DF6D8B860D776 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		3C7098DE5EE6FAF238E09BFB2B1F3C23 /* TwilioClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwilioClient.h; path = Headers/TwilioClient.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		40B79B0AB33C285097A80315AC8C6DF7 /* Pods-AnywhereCall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnywhereCall-dummy.m"; sourceTree = "<group>"; };
 		441F267406E92E529D8714E27801A656 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		444D340F54FE2412A47D0CC8D697E2A2 /* TCConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnectionDelegate.h; path = Headers/TCConnectionDelegate.h; sourceTree = "<group>"; };
-		46478152F33D995F8D1B8D276A1CF68B /* outgoing.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = outgoing.wav; path = Resources/outgoing.wav; sourceTree = "<group>"; };
 		4ACD065767F1BD6A652D391308ECF071 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		4F5DF8261BA42ED3F660AB8E152E5954 /* TCConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnectionDelegate.h; path = Headers/TCConnectionDelegate.h; sourceTree = "<group>"; };
+		4F88A0007B56151C85C1FA7DD3CA2897 /* dtmf_2.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_2.wav; path = Resources/dtmf_2.wav; sourceTree = "<group>"; };
 		51457158CB80A4C1FEF2B2AF64C3C7FA /* Pods_AnywhereCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnywhereCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		517FF25BA4ACFD8AF74CFA1E6EB8E782 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		52268B9D5ACD2FAF4B6CE249A7118129 /* dtmf_star.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_star.wav; path = Resources/dtmf_star.wav; sourceTree = "<group>"; };
+		58EC8B8555BE477BA002C33BE6D19D57 /* dtmf_8.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_8.wav; path = Resources/dtmf_8.wav; sourceTree = "<group>"; };
 		623169252A0610F7A2BB8C5E60B8366A /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
-		63B41A1B189DFDBDA857E95E950A3F6E /* dtmf_6.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_6.wav; path = Resources/dtmf_6.wav; sourceTree = "<group>"; };
 		6EBE1B23701F44C062FA0E5A053275D7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73845A3D975FE30A949474F6B20910D2 /* Pods-AnywhereCall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnywhereCall-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75E5789392A663896A2CCF64DF567E70 /* dtmf_8.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_8.wav; path = Resources/dtmf_8.wav; sourceTree = "<group>"; };
-		78A5A990DA9164E4B068E418E9066DA5 /* dtmf_7.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_7.wav; path = Resources/dtmf_7.wav; sourceTree = "<group>"; };
-		7D0A0917872274EDB7E4F1CBA8F9647F /* dtmf_0.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_0.wav; path = Resources/dtmf_0.wav; sourceTree = "<group>"; };
-		8414448A70261AC2A2EB03CE311518E6 /* dtmf_1.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_1.wav; path = Resources/dtmf_1.wav; sourceTree = "<group>"; };
-		8DB13D155C3122077E1ED1F7386DAA4D /* dtmf_5.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_5.wav; path = Resources/dtmf_5.wav; sourceTree = "<group>"; };
+		7741883711962685C010BA0FE0459053 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/libcrypto.a; sourceTree = "<group>"; };
+		7C2373D71D45DB1879FDD5C59C78A409 /* dtmf_6.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_6.wav; path = Resources/dtmf_6.wav; sourceTree = "<group>"; };
+		7E338CF673E138A97A7D28D4861F0D87 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = Libraries/libssl.a; sourceTree = "<group>"; };
+		86803217E7B38B0C22187669E31B48EC /* TCPresenceEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCPresenceEvent.h; path = Headers/TCPresenceEvent.h; sourceTree = "<group>"; };
+		8746AB908CB8514ADA703192ACABACC8 /* disconnect.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = disconnect.wav; path = Resources/disconnect.wav; sourceTree = "<group>"; };
+		8E45C3E5EFA17683AB4B06255E89D51C /* dtmf_hash.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_hash.wav; path = Resources/dtmf_hash.wav; sourceTree = "<group>"; };
 		91D3EC070D67D0B24A4B88B626E64C1C /* Pods-AnywhereCall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnywhereCall-resources.sh"; sourceTree = "<group>"; };
+		9239E7982132BCB3EA21728D6BB64BDB /* dtmf_3.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_3.wav; path = Resources/dtmf_3.wav; sourceTree = "<group>"; };
 		9A71D3C841F135F0F7EF7B1C1BF20BFC /* Pods-AnywhereCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnywhereCall.debug.xcconfig"; sourceTree = "<group>"; };
+		9BA5959C738591D022C319482A2411FA /* TCDeviceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDeviceDelegate.h; path = Headers/TCDeviceDelegate.h; sourceTree = "<group>"; };
 		9DA5B091DB21379422CEC82D3DB4EF8D /* Pods-AnywhereCall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AnywhereCall.modulemap"; sourceTree = "<group>"; };
-		9EE5C4B0726D91CEBF93B673F5844F44 /* libTwilioClient.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTwilioClient.a; path = Libraries/libTwilioClient.a; sourceTree = "<group>"; };
-		9F995612F7B0C07F019D47FF52D220E9 /* TCDeviceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDeviceDelegate.h; path = Headers/TCDeviceDelegate.h; sourceTree = "<group>"; };
+		A16780DBF3C8F4853743638AC7D98139 /* outgoing.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = outgoing.wav; path = Resources/outgoing.wav; sourceTree = "<group>"; };
 		A26B37687F2ECECF90AC4B37B56B135B /* Pods-AnywhereCall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnywhereCall-acknowledgements.plist"; sourceTree = "<group>"; };
-		B294683255D285B9CC6E662AABAD9C29 /* dtmf_3.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_3.wav; path = Resources/dtmf_3.wav; sourceTree = "<group>"; };
+		A773614D6A749BF40EDD37743B7783A6 /* TCConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnection.h; path = Headers/TCConnection.h; sourceTree = "<group>"; };
 		B7936B3AA1037B36511AFC58D516604C /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C1F74C5D6884D49CF25321C17F4F8764 /* dtmf_hash.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_hash.wav; path = Resources/dtmf_hash.wav; sourceTree = "<group>"; };
 		C23CA73110040840E731DC75C1ABCACB /* Pods-AnywhereCall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnywhereCall-frameworks.sh"; sourceTree = "<group>"; };
 		C7AAEE082EBE8ED848130B4C61A5F816 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		D6C62052B0671E10F8B8C7703E84DD29 /* TCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCDevice.h; path = Headers/TCDevice.h; sourceTree = "<group>"; };
-		D8F15849110FF42E51576E6F8DF367D4 /* TCConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCConnection.h; path = Headers/TCConnection.h; sourceTree = "<group>"; };
-		E20B41D1B7D53F69675A02A7E767F0F1 /* dtmf_9.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_9.wav; path = Resources/dtmf_9.wav; sourceTree = "<group>"; };
-		E84F65EEC21FB65D1FE67ACC44017E44 /* TwilioClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwilioClient.h; path = Headers/TwilioClient.h; sourceTree = "<group>"; };
-		EDBA8C8FED0975EEF7AA3412335FEE76 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = Libraries/libcrypto.a; sourceTree = "<group>"; };
+		CC5FFE1FE66E9833AD9653867ECC0E1F /* dtmf_7.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_7.wav; path = Resources/dtmf_7.wav; sourceTree = "<group>"; };
+		EBFA33379F04BE01A958F08814716A56 /* dtmf_9.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_9.wav; path = Resources/dtmf_9.wav; sourceTree = "<group>"; };
 		EFFF0505982FE28181ABE88335CC15AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA2F8AE2FFB81E2B9F5F646E133180ED /* dtmf_2.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = dtmf_2.wav; path = Resources/dtmf_2.wav; sourceTree = "<group>"; };
-		FCC3578498936D4030D5F719DB127CD1 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = Libraries/libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,27 +108,6 @@
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		367E5F160F24DF4411C6F3D0A6207658 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7D0A0917872274EDB7E4F1CBA8F9647F /* dtmf_0.wav */,
-				8414448A70261AC2A2EB03CE311518E6 /* dtmf_1.wav */,
-				FA2F8AE2FFB81E2B9F5F646E133180ED /* dtmf_2.wav */,
-				B294683255D285B9CC6E662AABAD9C29 /* dtmf_3.wav */,
-				1B65A354B1DF61D3D53C53FA7C67577C /* dtmf_4.wav */,
-				8DB13D155C3122077E1ED1F7386DAA4D /* dtmf_5.wav */,
-				63B41A1B189DFDBDA857E95E950A3F6E /* dtmf_6.wav */,
-				78A5A990DA9164E4B068E418E9066DA5 /* dtmf_7.wav */,
-				75E5789392A663896A2CCF64DF567E70 /* dtmf_8.wav */,
-				E20B41D1B7D53F69675A02A7E767F0F1 /* dtmf_9.wav */,
-				C1F74C5D6884D49CF25321C17F4F8764 /* dtmf_hash.wav */,
-				52268B9D5ACD2FAF4B6CE249A7118129 /* dtmf_star.wav */,
-				07B7F79E2617F5B2A409CC4BFF51E950 /* incoming.wav */,
-				46478152F33D995F8D1B8D276A1CF68B /* outgoing.wav */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		4FA4556E170D9FBA08A98B2048048246 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,9 +129,31 @@
 			isa = PBXGroup;
 			children = (
 				706A2286A797C007A858A49CB8423448 /* SwiftyJSON */,
-				FF00197118E521AFD011EE6483A96748 /* TwilioSDK */,
+				CA2F4C32B7095551FE54CEE9DF599B75 /* TwilioSDK */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		649A96FCA11C3D9970DBD411CD0C24C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8746AB908CB8514ADA703192ACABACC8 /* disconnect.wav */,
+				1F08F3B8523E985ED66C1F92A9ED62E3 /* dtmf_0.wav */,
+				136877E273FFB8E33CA835ABEA5DD9EF /* dtmf_1.wav */,
+				4F88A0007B56151C85C1FA7DD3CA2897 /* dtmf_2.wav */,
+				9239E7982132BCB3EA21728D6BB64BDB /* dtmf_3.wav */,
+				03E3B8E6E84CDD1324118497B2985510 /* dtmf_4.wav */,
+				0090856FE72A6EB2B280285A27315F6C /* dtmf_5.wav */,
+				7C2373D71D45DB1879FDD5C59C78A409 /* dtmf_6.wav */,
+				CC5FFE1FE66E9833AD9653867ECC0E1F /* dtmf_7.wav */,
+				58EC8B8555BE477BA002C33BE6D19D57 /* dtmf_8.wav */,
+				EBFA33379F04BE01A958F08814716A56 /* dtmf_9.wav */,
+				8E45C3E5EFA17683AB4B06255E89D51C /* dtmf_hash.wav */,
+				0E4AF679F6C7A160AE9A7805253F9A20 /* dtmf_star.wav */,
+				1B8800E3C654A45E1E617597858B239C /* incoming.wav */,
+				A16780DBF3C8F4853743638AC7D98139 /* outgoing.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		706A2286A797C007A858A49CB8423448 /* SwiftyJSON */ = {
@@ -174,16 +176,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		A221CC76A1B97AF4A97B6818D0B97FA7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EDBA8C8FED0975EEF7AA3412335FEE76 /* libcrypto.a */,
-				FCC3578498936D4030D5F719DB127CD1 /* libssl.a */,
-				9EE5C4B0726D91CEBF93B673F5844F44 /* libTwilioClient.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +190,31 @@
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C61EABEDD0854EADAA2B2702E16BD652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7741883711962685C010BA0FE0459053 /* libcrypto.a */,
+				7E338CF673E138A97A7D28D4861F0D87 /* libssl.a */,
+				03BDAB9471F4297F4747CB5EC998D3F6 /* libTwilioClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA2F4C32B7095551FE54CEE9DF599B75 /* TwilioSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A773614D6A749BF40EDD37743B7783A6 /* TCConnection.h */,
+				4F5DF8261BA42ED3F660AB8E152E5954 /* TCConnectionDelegate.h */,
+				249C9247DD0E86C50887DBE1EC1749D0 /* TCDevice.h */,
+				9BA5959C738591D022C319482A2411FA /* TCDeviceDelegate.h */,
+				86803217E7B38B0C22187669E31B48EC /* TCPresenceEvent.h */,
+				3C7098DE5EE6FAF238E09BFB2B1F3C23 /* TwilioClient.h */,
+				C61EABEDD0854EADAA2B2702E16BD652 /* Frameworks */,
+				649A96FCA11C3D9970DBD411CD0C24C3 /* Resources */,
+			);
+			path = TwilioSDK;
 			sourceTree = "<group>";
 		};
 		ECC52D55EA0B463BC1CC305C3C9ABBC3 /* Pods-AnywhereCall */ = {
@@ -216,21 +233,6 @@
 			);
 			name = "Pods-AnywhereCall";
 			path = "Target Support Files/Pods-AnywhereCall";
-			sourceTree = "<group>";
-		};
-		FF00197118E521AFD011EE6483A96748 /* TwilioSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D8F15849110FF42E51576E6F8DF367D4 /* TCConnection.h */,
-				444D340F54FE2412A47D0CC8D697E2A2 /* TCConnectionDelegate.h */,
-				D6C62052B0671E10F8B8C7703E84DD29 /* TCDevice.h */,
-				9F995612F7B0C07F019D47FF52D220E9 /* TCDeviceDelegate.h */,
-				32F97EEBA2FE2BB2D5BA28B57F3E21B6 /* TCPresenceEvent.h */,
-				E84F65EEC21FB65D1FE67ACC44017E44 /* TwilioClient.h */,
-				A221CC76A1B97AF4A97B6818D0B97FA7 /* Frameworks */,
-				367E5F160F24DF4411C6F3D0A6207658 /* Resources */,
-			);
-			path = TwilioSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
