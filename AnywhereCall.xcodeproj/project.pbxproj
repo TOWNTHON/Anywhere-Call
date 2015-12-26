@@ -18,6 +18,7 @@
 		AD3D81D61C24260200E9AEB3 /* AnywhereCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3D81D51C24260200E9AEB3 /* AnywhereCallUITests.swift */; };
 		AD656BD31C2E6E9A00B9979F /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */; };
 		AD656BD51C2E707900B9979F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD656BD41C2E707900B9979F /* LoginViewController.swift */; };
+		AD656BD71C2E7A5C00B9979F /* ProfileImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		AD3D81D71C24260200E9AEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		AD656BD41C2E707900B9979F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageViewController.swift; sourceTree = "<group>"; };
 		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 				AD3D81B91C24260200E9AEB3 /* Main.storyboard */,
 				AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */,
 				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
+				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
 				AD3D81BC1C24260200E9AEB3 /* Assets.xcassets */,
 				AD3D81BE1C24260200E9AEB3 /* LaunchScreen.storyboard */,
 				AD3D81C11C24260200E9AEB3 /* Info.plist */,
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD656BD71C2E7A5C00B9979F /* ProfileImageViewController.swift in Sources */,
 				AD3D81B81C24260200E9AEB3 /* TopViewController.swift in Sources */,
 				AD656BD31C2E6E9A00B9979F /* CheckViewController.swift in Sources */,
 				217B71711C2B046F00EEBAD4 /* Phone.swift in Sources */,

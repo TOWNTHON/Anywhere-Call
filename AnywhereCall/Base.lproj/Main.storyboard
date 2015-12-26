@@ -99,11 +99,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgb-10-xEP">
                                 <rect key="frame" x="260" y="460" width="30" height="30"/>
                                 <state key="normal" title="次へ"/>
+                                <connections>
+                                    <segue destination="TKO-aL-Cuh" kind="push" id="7KE-g5-VCT"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z8u-kQ-V5f">
                                 <rect key="frame" x="245" y="72" width="110" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="5RG-cd-IZX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="Hde-vt-S02"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="epJ-eo-CNd"/>
                                     <constraint firstAttribute="width" constant="110" id="tqe-fW-pBF"/>
                                 </constraints>
                             </imageView>
@@ -120,11 +125,13 @@
                         <constraints>
                             <constraint firstItem="fYb-nz-JkL" firstAttribute="centerY" secondItem="hqg-eN-AYd" secondAttribute="centerY" id="2N6-vV-4gh"/>
                             <constraint firstItem="sgb-10-xEP" firstAttribute="leading" secondItem="ybW-fy-gWq" secondAttribute="leading" constant="260" id="5gC-TW-iWO"/>
+                            <constraint firstItem="Z8u-kQ-V5f" firstAttribute="centerX" secondItem="ybW-fy-gWq" secondAttribute="centerX" id="7VG-uT-RZw"/>
                             <constraint firstItem="fYb-nz-JkL" firstAttribute="leading" secondItem="ybW-fy-gWq" secondAttribute="leading" constant="257" id="8Wb-HD-NEO"/>
                             <constraint firstItem="TqK-Bt-sEM" firstAttribute="leading" secondItem="8hE-kC-uL2" secondAttribute="trailing" constant="45" id="9jK-sa-XXa"/>
                             <constraint firstItem="iny-O6-pfR" firstAttribute="leading" secondItem="JpL-If-NAE" secondAttribute="trailing" constant="49" id="AEI-uK-RcL"/>
                             <constraint firstItem="fYb-nz-JkL" firstAttribute="leading" secondItem="TqK-Bt-sEM" secondAttribute="leading" id="Aig-zx-oNN"/>
                             <constraint firstItem="fYb-nz-JkL" firstAttribute="trailing" secondItem="TqK-Bt-sEM" secondAttribute="trailing" id="KhS-7Q-XHw"/>
+                            <constraint firstItem="Z8u-kQ-V5f" firstAttribute="top" secondItem="NlB-4s-49P" secondAttribute="bottom" constant="52" id="Mkg-La-1up"/>
                             <constraint firstItem="iny-O6-pfR" firstAttribute="top" secondItem="JpL-If-NAE" secondAttribute="top" id="Olo-GR-Zt3"/>
                             <constraint firstItem="TqK-Bt-sEM" firstAttribute="top" secondItem="8hE-kC-uL2" secondAttribute="top" id="T9p-VK-CsT"/>
                             <constraint firstItem="fYb-nz-JkL" firstAttribute="top" secondItem="Z8u-kQ-V5f" secondAttribute="bottom" constant="91" id="WDc-Fr-mpg"/>
@@ -142,6 +149,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZx-DV-BWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="239" y="1183"/>
+        </scene>
+        <!--Profile Image View Controller-->
+        <scene sceneID="1Pv-33-AjK">
+            <objects>
+                <viewController id="TKO-aL-Cuh" customClass="ProfileImageViewController" customModule="AnywhereCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8MN-Cj-NCu"/>
+                        <viewControllerLayoutGuide type="bottom" id="F8h-WJ-9dC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1em-W7-f5U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-pM-uSa">
+                                <rect key="frame" x="228" y="182" width="165" height="30"/>
+                                <state key="normal" title="プロフィール写真を選ぶ"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d44-oq-3Fu">
+                                <rect key="frame" x="235" y="365" width="150" height="30"/>
+                                <state key="normal" title="アカウントを登録する"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SGD-tA-uiK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XT-vF-RoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="907" y="1183"/>
         </scene>
         <!--Check View Controller-->
         <scene sceneID="hZ4-k6-6DA">
