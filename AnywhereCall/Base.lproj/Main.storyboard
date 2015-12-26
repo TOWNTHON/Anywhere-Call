@@ -40,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="239" y="387"/>
+            <point key="canvasLocation" x="1652" y="722"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="AI1-ba-doY">
@@ -100,7 +100,7 @@
                                 <rect key="frame" x="260" y="460" width="30" height="30"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
-                                    <segue destination="TKO-aL-Cuh" kind="push" id="7KE-g5-VCT"/>
+                                    <segue destination="TKO-aL-Cuh" kind="showDetail" id="72H-3k-TSG"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z8u-kQ-V5f">
@@ -169,6 +169,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d44-oq-3Fu">
                                 <rect key="frame" x="235" y="365" width="150" height="30"/>
                                 <state key="normal" title="アカウントを登録する"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="P7N-5a-czO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -202,4 +205,7 @@
             <point key="canvasLocation" x="-502" y="710"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="P7N-5a-czO"/>
+    </inferredMetricsTieBreakers>
 </document>
