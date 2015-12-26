@@ -28,7 +28,7 @@ class CheckViewController: UIViewController {
             performSegueWithIdentifier("toTopController", sender: nil)
         }
         else{
-            performSegueWithIdentifier("toLogin", sender: nil)
+            performSegueWithIdentifier("toLoginController", sender: nil)
         }
     }
 

@@ -157,8 +157,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="f9J-iM-4bK" kind="modal" id="FKU-sl-Z3j"/>
-                        <segue destination="BYZ-38-t0r" kind="push" id="rwF-jQ-b7P"/>
+                        <segue destination="f9J-iM-4bK" kind="modal" identifier="toLoginController" id="FKU-sl-Z3j"/>
+                        <segue destination="BYZ-38-t0r" kind="push" identifier="toTopController" id="rwF-jQ-b7P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bdj-4M-aTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
