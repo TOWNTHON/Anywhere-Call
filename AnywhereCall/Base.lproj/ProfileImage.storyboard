@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TKO-aL-Cuh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Profile Image View Controller-->
+        <scene sceneID="1Pv-33-AjK">
+            <objects>
+                <viewController id="TKO-aL-Cuh" customClass="ProfileImageViewController" customModule="AnywhereCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8MN-Cj-NCu"/>
+                        <viewControllerLayoutGuide type="bottom" id="F8h-WJ-9dC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1em-W7-f5U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-pM-uSa">
+                                <rect key="frame" x="228" y="182" width="165" height="30"/>
+                                <state key="normal" title="プロフィール写真を選ぶ"/>
+                                <connections>
+                                    <action selector="selectProfileImageButton:" destination="TKO-aL-Cuh" eventType="touchUpInside" id="SsA-dp-3Bf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d44-oq-3Fu">
+                                <rect key="frame" x="235" y="365" width="150" height="30"/>
+                                <state key="normal" title="アカウントを登録する"/>
+                                <connections>
+                                    <segue destination="dGf-BK-8jc" kind="showDetail" id="P7N-5a-czO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SGD-tA-uiK"/>
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XT-vF-RoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="907" y="1183"/>
+        </scene>
+        <!--UIViewController-BYZ-38-t0r-->
+        <scene sceneID="vWl-Yx-jnN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UIViewController-BYZ-38-t0r" id="dGf-BK-8jc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SWE-PB-CS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1501.5" y="1183"/>
+        </scene>
+    </scenes>
+</document>
