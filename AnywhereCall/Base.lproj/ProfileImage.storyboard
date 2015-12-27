@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-pM-uSa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-pM-uSa">
                                 <rect key="frame" x="228" y="182" width="165" height="30"/>
                                 <state key="normal" title="プロフィール写真を選ぶ"/>
                                 <connections>
                                     <action selector="selectProfileImageButton:" destination="TKO-aL-Cuh" eventType="touchUpInside" id="SsA-dp-3Bf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d44-oq-3Fu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d44-oq-3Fu">
                                 <rect key="frame" x="235" y="365" width="150" height="30"/>
                                 <state key="normal" title="アカウントを登録する"/>
                                 <connections>
@@ -33,6 +33,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F8h-WJ-9dC" firstAttribute="top" secondItem="d44-oq-3Fu" secondAttribute="bottom" constant="205" id="ETw-j1-Ceb"/>
+                            <constraint firstItem="lHY-pM-uSa" firstAttribute="top" secondItem="8MN-Cj-NCu" secondAttribute="bottom" constant="162" id="KAd-9z-0Tc"/>
+                            <constraint firstItem="lHY-pM-uSa" firstAttribute="centerX" secondItem="1em-W7-f5U" secondAttribute="centerX" constant="10.5" id="Qpd-PZ-8p4"/>
+                            <constraint firstItem="d44-oq-3Fu" firstAttribute="centerX" secondItem="1em-W7-f5U" secondAttribute="centerX" constant="10" id="oR5-zu-GAW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SGD-tA-uiK"/>
                     <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
