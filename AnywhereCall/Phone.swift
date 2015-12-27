@@ -31,9 +31,9 @@ public class Phone {
                 
                 let json = JSON(data:data)
                 
-                let selfTel = json["self_tel"].string
-                let other_party_tel = json["other_party_info"][1]["tel"].string
-                let other_party_name = json["other_party_info"][1]["name"].string
+                let selfTel : String! = json["selftel"].string //"+819093186841"  //json["self_tel"].string
+                let other_party_tel : String!  = json["other_party_info"][1]["tel"].string
+                let other_party_name : String! = "ito" //json["other_party_info"][1]["name"].string
                 
                 // twilio APIに渡すリクエスト情報の設定
                 let request = NSMutableURLRequest(URL: NSURL(string:"https://\(twilioSID):\(twilioSecret)@api.twilio.com/2010-04-01/Accounts/\(twilioSID)/Calls.json")!)
