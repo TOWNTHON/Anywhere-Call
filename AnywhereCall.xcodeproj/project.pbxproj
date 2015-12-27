@@ -24,6 +24,11 @@
 		ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */; };
 		ADB569901C2F75B40053B2C0 /* MosaicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */; };
 		ADB569971C2FBB9F0053B2C0 /* TimeCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */; };
+		ADB569991C2FE3C90053B2C0 /* calling.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADB569981C2FE3C80053B2C0 /* calling.gif */; };
+		ADB569A81C300FD10053B2C0 /* YLGIFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569A71C300FD10053B2C0 /* YLGIFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB569AA1C300FE60053B2C0 /* YLImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569A91C300FE60053B2C0 /* YLImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB569AC1C3014780053B2C0 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB569AE1C30148A0053B2C0 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,14 @@
 		ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicViewController.swift; sourceTree = "<group>"; };
 		ADB569941C2F91470053B2C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCount.swift; sourceTree = "<group>"; };
+		ADB569981C2FE3C80053B2C0 /* calling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = calling.gif; path = ../../../Documents/calling.gif; sourceTree = "<group>"; };
+		ADB5699B1C3008D30053B2C0 /* YLGIFImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YLGIFImage.framework; path = "Pods/../build/Debug-iphoneos/YLGIFImage.framework"; sourceTree = "<group>"; };
+		ADB5699E1C30095E0053B2C0 /* YLGIFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLGIFImage.swift; sourceTree = "<group>"; };
+		ADB5699F1C30095E0053B2C0 /* YLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLImageView.swift; sourceTree = "<group>"; };
+		ADB569A71C300FD10053B2C0 /* YLGIFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLGIFImage.h; path = Pods/YLGIFImage/YLGIFImage/YLGIFImage.h; sourceTree = "<group>"; };
+		ADB569A91C300FE60053B2C0 /* YLImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLImageView.h; path = Pods/YLGIFImage/YLGIFImage/YLImageView.h; sourceTree = "<group>"; };
+		ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +124,10 @@
 		AD3D81A91C24260200E9AEB3 = {
 			isa = PBXGroup;
 			children = (
+				ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */,
+				ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */,
+				ADB569A91C300FE60053B2C0 /* YLImageView.h */,
+				ADB569A71C300FD10053B2C0 /* YLGIFImage.h */,
 				AD3D81B41C24260200E9AEB3 /* AnywhereCall */,
 				AD3D81C91C24260200E9AEB3 /* AnywhereCallTests */,
 				AD3D81D41C24260200E9AEB3 /* AnywhereCallUITests */,
@@ -179,6 +196,7 @@
 			children = (
 				AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */,
 				AD3D81B71C24260200E9AEB3 /* TopViewController.swift */,
+				ADB569981C2FE3C80053B2C0 /* calling.gif */,
 				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
 				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
 				ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */,
@@ -195,9 +213,21 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		ADB5699D1C30095E0053B2C0 /* YLGIFImage-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				ADB5699E1C30095E0053B2C0 /* YLGIFImage.swift */,
+				ADB5699F1C30095E0053B2C0 /* YLImageView.swift */,
+			);
+			name = "YLGIFImage-Swift";
+			path = "../../Downloads/YLGIFImage-Swift-master/YLGIFImage-Swift";
+			sourceTree = "<group>";
+		};
 		E803E73793A6E2A2764DA006 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADB5699D1C30095E0053B2C0 /* YLGIFImage-Swift */,
+				ADB5699B1C3008D30053B2C0 /* YLGIFImage.framework */,
 				ADB569941C2F91470053B2C0 /* QuartzCore.framework */,
 				56003842D2CF34B782B3633B /* Pods_AnywhereCall.framework */,
 			);
@@ -205,6 +235,20 @@
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADB569A61C300F960053B2C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB569A81C300FD10053B2C0 /* YLGIFImage.h in Headers */,
+				ADB569AA1C300FE60053B2C0 /* YLImageView.h in Headers */,
+				ADB569AC1C3014780053B2C0 /* FLAnimatedImage.h in Headers */,
+				ADB569AE1C30148A0053B2C0 /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AD3D81B11C24260200E9AEB3 /* AnywhereCall */ = {
@@ -217,6 +261,7 @@
 				AD3D81B01C24260200E9AEB3 /* Resources */,
 				FD7B91CA96483BA28EBDD94D /* Embed Pods Frameworks */,
 				43F22E1A400600A3DBE5B0E1 /* Copy Pods Resources */,
+				ADB569A61C300F960053B2C0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -314,6 +359,7 @@
 				AD3D81C01C24260200E9AEB3 /* LaunchScreen.storyboard in Resources */,
 				AD3D81BD1C24260200E9AEB3 /* Assets.xcassets in Resources */,
 				ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */,
+				ADB569991C2FE3C90053B2C0 /* calling.gif in Resources */,
 				ADB569791C2EB7EA0053B2C0 /* ProfileImage.storyboard in Resources */,
 				ADB5697C1C2EB83A0053B2C0 /* Login.storyboard in Resources */,
 				AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */,
@@ -563,6 +609,10 @@
 			baseConfigurationReference = 325A5D50CBE3B9542F3290CB /* Pods-AnywhereCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = AnywhereCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCall;
@@ -576,6 +626,10 @@
 			baseConfigurationReference = FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = AnywhereCall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.midori.AnywhereCall;

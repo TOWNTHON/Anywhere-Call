@@ -10,8 +10,6 @@ import UIKit
 
 class ProfileImageViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
-    @IBOutlet weak var ProfileImageView: UIImageView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +20,9 @@ class ProfileImageViewController: UIViewController,UIImagePickerControllerDelega
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
+    @IBOutlet weak var ProfileImageView: UIImageView!
     
     @IBAction func selectProfileImageButton(sender: AnyObject) {
         let alertController = UIAlertController(title: "写真を選択してください", message: "", preferredStyle: .ActionSheet)
@@ -74,6 +75,7 @@ class ProfileImageViewController: UIViewController,UIImagePickerControllerDelega
         if info[UIImagePickerControllerOriginalImage] != nil {
             let image = info[UIImagePickerControllerOriginalImage] as! UIImage
             print(image)
+            
             ProfileImageView.image = image
         }
     

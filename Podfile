@@ -7,6 +7,8 @@ use_frameworks!
 target 'AnywhereCall' do
   pod 'TwilioSDK'
   pod 'SwiftyJSON'
+  pod 'YLGIFImage'
+  pod 'FLAnimatedImage'
 end
 
 target 'AnywhereCallTests' do

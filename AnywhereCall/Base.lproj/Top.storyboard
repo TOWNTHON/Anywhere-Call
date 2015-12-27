@@ -17,17 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjP-0R-XWd">
-                                <rect key="frame" x="249" y="273" width="102" height="53"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="102" id="wO8-ic-XYj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Call"/>
-                                <connections>
-                                    <action selector="CallButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y2D-Er-6su"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuB-Eh-a2f">
                                 <rect key="frame" x="276" y="433" width="49" height="30"/>
                                 <state key="normal" title="Mosaic"/>
@@ -35,17 +24,32 @@
                                     <segue destination="mSy-fO-kvT" kind="show" id="bcC-jg-TGS"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calling" translatesAutoresizingMaskIntoConstraints="NO" id="S7o-aN-SeS">
+                                <rect key="frame" x="180" y="138" width="240" height="242"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="BgX-la-wKA"/>
+                                    <constraint firstAttribute="height" constant="242" id="mQy-T7-wWa"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wjP-0R-XWd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nmu-Rd-ROP"/>
-                            <constraint firstItem="wjP-0R-XWd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qdj-xM-kZE"/>
+                            <constraint firstItem="uuB-Eh-a2f" firstAttribute="top" secondItem="S7o-aN-SeS" secondAttribute="bottom" constant="53" id="Bt7-Hv-96Z"/>
+                            <constraint firstItem="S7o-aN-SeS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fcf-Zq-hKf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uuB-Eh-a2f" secondAttribute="bottom" constant="137" id="W6e-5n-65N"/>
-                            <constraint firstItem="wjP-0R-XWd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="253" id="Yoq-nK-a4R"/>
+                            <constraint firstItem="S7o-aN-SeS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="goM-R6-9Rb"/>
                             <constraint firstItem="uuB-Eh-a2f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jYc-u4-8UO"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="goM-R6-9Rb"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Oxf-Zr-lzK"/>
+                    <connections>
+                        <outlet property="CallView" destination="S7o-aN-SeS" id="wNm-1C-48G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,4 +74,7 @@
             <point key="canvasLocation" x="2377" y="727"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calling" width="272" height="272"/>
+    </resources>
 </document>

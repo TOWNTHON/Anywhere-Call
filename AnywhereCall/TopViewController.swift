@@ -12,18 +12,41 @@ class TopViewController: UIViewController {
 
     var phone:Phone = Phone()
     
-    //Callボタン押下でtwilioから電話をかけます。
-    @IBAction func CallButton(sender: AnyObject) {
-        phone.sendCall()
-    }
+    
+    @IBOutlet weak var CallView: UIImageView!
+    let backgroundAnimationImage = FLAnimatedImageView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        CallView.userInteractionEnabled = true
+        CallView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageTapped:"))
+    
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    func imageTapped(sender: UITapGestureRecognizer) {
+        
+        let path = NSBundle.mainBundle().pathForResource("calling", ofType: "gif")!
+        let url = NSURL(fileURLWithPath: path)
+        let animatedImage = FLAnimatedImage(animatedGIFData: NSData(contentsOfURL: url))
+        
+        let frame:CGRect = CGRect(x: 0, y: (self.view.bounds.height)/2-150, width: 400, height: 300)
+        
+        
+        backgroundAnimationImage.animatedImage = animatedImage
+        backgroundAnimationImage.frame = frame
+        view.insertSubview(backgroundAnimationImage, atIndex: 5)
+        
+        
+        //Callボタン押下でtwilioから電話をかける
+//        phone.sendCall()
+        
+        
+
     }
 
 

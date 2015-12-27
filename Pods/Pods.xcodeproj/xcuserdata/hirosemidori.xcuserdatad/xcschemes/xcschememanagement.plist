@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AnywhereCall.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -14,15 +19,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YLGIFImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>616FFE65BB934E95E9F628A7D73E9E0D</key>
+		<key>289D36111B00A93495B28A5A52C626DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3A3E29A532A82614F3C465111DEC0D3</key>
+		<key>E3E803B9DC01455259F9954B58B9A974</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9F690ADA3EDAD7B1FE0FFD2B996F3C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE113CEF81C16AA59EC049ACE130BCB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
