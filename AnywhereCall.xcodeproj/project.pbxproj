@@ -128,16 +128,10 @@
 		AD3D81B41C24260200E9AEB3 /* AnywhereCall */ = {
 			isa = PBXGroup;
 			children = (
-				217B71701C2B046F00EEBAD4 /* Phone.swift */,
 				AD3D81B51C24260200E9AEB3 /* AppDelegate.swift */,
-				AD3D81B91C24260200E9AEB3 /* Main.storyboard */,
-				AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */,
-				ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */,
-				AD3D81B71C24260200E9AEB3 /* TopViewController.swift */,
-				ADB5697A1C2EB83A0053B2C0 /* Login.storyboard */,
-				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
-				ADB569771C2EB7EA0053B2C0 /* ProfileImage.storyboard */,
-				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
+				ADB569821C2EB9920053B2C0 /* Model */,
+				ADB569811C2EB9870053B2C0 /* Controller */,
+				ADB569801C2EB9770053B2C0 /* View */,
 				AD3D81BC1C24260200E9AEB3 /* Assets.xcassets */,
 				AD3D81BE1C24260200E9AEB3 /* LaunchScreen.storyboard */,
 				AD3D81C11C24260200E9AEB3 /* Info.plist */,
@@ -162,6 +156,36 @@
 				AD3D81D71C24260200E9AEB3 /* Info.plist */,
 			);
 			path = AnywhereCallUITests;
+			sourceTree = "<group>";
+		};
+		ADB569801C2EB9770053B2C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D81B91C24260200E9AEB3 /* Main.storyboard */,
+				ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */,
+				ADB5697A1C2EB83A0053B2C0 /* Login.storyboard */,
+				ADB569771C2EB7EA0053B2C0 /* ProfileImage.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ADB569811C2EB9870053B2C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */,
+				AD3D81B71C24260200E9AEB3 /* TopViewController.swift */,
+				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
+				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ADB569821C2EB9920053B2C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				217B71701C2B046F00EEBAD4 /* Phone.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		E803E73793A6E2A2764DA006 /* Frameworks */ = {
