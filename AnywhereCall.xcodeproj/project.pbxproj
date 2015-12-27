@@ -25,8 +25,6 @@
 		ADB569901C2F75B40053B2C0 /* MosaicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */; };
 		ADB569971C2FBB9F0053B2C0 /* TimeCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */; };
 		ADB569991C2FE3C90053B2C0 /* calling.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADB569981C2FE3C80053B2C0 /* calling.gif */; };
-		ADB569A81C300FD10053B2C0 /* YLGIFImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569A71C300FD10053B2C0 /* YLGIFImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADB569AA1C300FE60053B2C0 /* YLImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569A91C300FE60053B2C0 /* YLImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADB569AC1C3014780053B2C0 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADB569AE1C30148A0053B2C0 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -79,8 +77,6 @@
 		ADB5699B1C3008D30053B2C0 /* YLGIFImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YLGIFImage.framework; path = "Pods/../build/Debug-iphoneos/YLGIFImage.framework"; sourceTree = "<group>"; };
 		ADB5699E1C30095E0053B2C0 /* YLGIFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLGIFImage.swift; sourceTree = "<group>"; };
 		ADB5699F1C30095E0053B2C0 /* YLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLImageView.swift; sourceTree = "<group>"; };
-		ADB569A71C300FD10053B2C0 /* YLGIFImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLGIFImage.h; path = Pods/YLGIFImage/YLGIFImage/YLGIFImage.h; sourceTree = "<group>"; };
-		ADB569A91C300FE60053B2C0 /* YLImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLImageView.h; path = Pods/YLGIFImage/YLGIFImage/YLImageView.h; sourceTree = "<group>"; };
 		ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
 		ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +122,6 @@
 			children = (
 				ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */,
 				ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */,
-				ADB569A91C300FE60053B2C0 /* YLImageView.h */,
-				ADB569A71C300FD10053B2C0 /* YLGIFImage.h */,
 				AD3D81B41C24260200E9AEB3 /* AnywhereCall */,
 				AD3D81C91C24260200E9AEB3 /* AnywhereCallTests */,
 				AD3D81D41C24260200E9AEB3 /* AnywhereCallUITests */,
@@ -241,8 +235,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB569A81C300FD10053B2C0 /* YLGIFImage.h in Headers */,
-				ADB569AA1C300FE60053B2C0 /* YLImageView.h in Headers */,
 				ADB569AC1C3014780053B2C0 /* FLAnimatedImage.h in Headers */,
 				ADB569AE1C30148A0053B2C0 /* FLAnimatedImageView.h in Headers */,
 			);

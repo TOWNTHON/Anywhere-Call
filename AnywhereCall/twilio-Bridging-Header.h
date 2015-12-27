@@ -6,7 +6,5 @@
 //  Copyright © 2015年 広瀬緑. All rights reserved.
 //
 #import "TwilioClient.h"
-#import "YLGIFImage.h"
-#import "YLImageView.h"
 #import "FLAnimatedImage.h"
 #import "FLAnimatedImageView.h"

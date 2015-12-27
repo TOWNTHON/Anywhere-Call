@@ -2,18 +2,15 @@ PODS:
   - FLAnimatedImage (1.0.10)
   - SwiftyJSON (2.3.2)
   - TwilioSDK (1.2.7)
-  - YLGIFImage (0.11)
 
 DEPENDENCIES:
   - FLAnimatedImage
   - SwiftyJSON
   - TwilioSDK
-  - YLGIFImage
 
 SPEC CHECKSUMS:
   FLAnimatedImage: e16a1e1cef08e4c509b47e4acbe3923f65c16135
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   TwilioSDK: d3982acf6880ddf3ce57c4444e021a71c5f35653
-  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
 
 COCOAPODS: 0.39.0
