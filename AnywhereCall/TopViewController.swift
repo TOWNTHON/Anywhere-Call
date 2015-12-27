@@ -11,24 +11,13 @@ import UIKit
 class TopViewController: UIViewController {
 
     var phone:Phone = Phone()
-    
+    internal var window: UIWindow?
     
     @IBOutlet weak var CallView: UIImageView!
     let backgroundAnimationImage = FLAnimatedImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        CallView.userInteractionEnabled = true
-        CallView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageTapped:"))
-    
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    func imageTapped(sender: UITapGestureRecognizer) {
         
         let path = NSBundle.mainBundle().pathForResource("calling", ofType: "gif")!
         let url = NSURL(fileURLWithPath: path)
@@ -41,14 +30,35 @@ class TopViewController: UIViewController {
         backgroundAnimationImage.frame = frame
         view.insertSubview(backgroundAnimationImage, atIndex: 5)
         
-        
-        //Callボタン押下でtwilioから電話をかける
-        phone.sendCall()
-        
-        
-
+        CallView.userInteractionEnabled = true
+        CallView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageTapped:"))
+    
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    func imageTapped(sender: UITapGestureRecognizer) {
+        
+        // ViewControllerを生成する.
+        let myMosaicViewController: MosaicViewController = MosaicViewController()
+
+        myMosaicViewController.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
+        self.presentViewController(myMosaicViewController, animated: true, completion:nil)
+        
+        // UIWindowを生成する.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        // rootViewControllerにNatigationControllerを設定する.
+        self.window?.rootViewController = myMosaicViewController
+        
+        self.window?.makeKeyAndVisible()
+        
+        //Callボタン押下でtwilioから電話をかける
+//        phone.sendCall()
+
+    }
 
 }
 

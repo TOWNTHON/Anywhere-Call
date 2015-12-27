@@ -31,8 +31,8 @@ public class Phone {
                 
                 let json = JSON(data:data)
                 
-                let selfTel : String! = json["selftel"].string //"+819093186841"  //json["self_tel"].string
-                let other_party_tel : String!  = json["other_party_info"][1]["tel"].string
+                let selfTel : String! = "+819093186841" //json["selftel"].string  //json["self_tel"].string
+                let other_party_tel : String!  = json["other_party_info"][0]["tel"].string
                 let other_party_name : String! = "ito" //json["other_party_info"][1]["name"].string
                 
                 // twilio APIに渡すリクエスト情報の設定

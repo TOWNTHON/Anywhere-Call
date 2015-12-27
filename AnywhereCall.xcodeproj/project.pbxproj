@@ -26,6 +26,7 @@
 		ADB569971C2FBB9F0053B2C0 /* TimeCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */; };
 		ADB569AC1C3014780053B2C0 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADB569AE1C30148A0053B2C0 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB569B21C3026830053B2C0 /* calling.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADB569B11C3026830053B2C0 /* calling.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		ADB5699F1C30095E0053B2C0 /* YLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLImageView.swift; sourceTree = "<group>"; };
 		ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
 		ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		ADB569B11C3026830053B2C0 /* calling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calling.gif; sourceTree = "<group>"; };
 		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,9 +190,10 @@
 			children = (
 				AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */,
 				AD3D81B71C24260200E9AEB3 /* TopViewController.swift */,
+				ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */,
+				ADB569B11C3026830053B2C0 /* calling.gif */,
 				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
 				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
-				ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				AD3D81C01C24260200E9AEB3 /* LaunchScreen.storyboard in Resources */,
 				AD3D81BD1C24260200E9AEB3 /* Assets.xcassets in Resources */,
 				ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */,
+				ADB569B21C3026830053B2C0 /* calling.gif in Resources */,
 				ADB569791C2EB7EA0053B2C0 /* ProfileImage.storyboard in Resources */,
 				ADB5697C1C2EB83A0053B2C0 /* Login.storyboard in Resources */,
 				AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */,
