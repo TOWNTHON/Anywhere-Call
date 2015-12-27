@@ -43,7 +43,7 @@ class TopViewController: UIViewController {
         
         
         //Callボタン押下でtwilioから電話をかける
-//        phone.sendCall()
+        phone.sendCall()
         
         
 
