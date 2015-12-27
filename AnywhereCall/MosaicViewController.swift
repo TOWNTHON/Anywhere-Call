@@ -43,6 +43,9 @@ class MosaicViewController: UIViewController {
     // NSTimer：タイマーを管理するクラス
     var timer:NSTimer = NSTimer()
     
+    // count
+    var count = 0.040
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -57,27 +60,15 @@ class MosaicViewController: UIViewController {
             //（３）selector：タイマー発生時に呼び出すメソッドを指定〔mySelector〕
             //（４）userInfo：selectorで呼びだすメソッドに渡す情報〔nil〕
             //（５）repeats：タイマーの実行を繰り返すかどうかの指定〔true〕
-            timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: mySelector, userInfo: nil, repeats: true)
+            timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: mySelector, userInfo: nil, repeats: true)
             
             // NSDate：日付と時間を管理するクラス
             startTime = NSDate.timeIntervalSinceReferenceDate()
         }
         
-        NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: "onValueChanged", userInfo: nil, repeats:true)
-        
         
         // ラスタライズ化の初期化値.
         let initRasterizeValue : CGFloat = 0.04
-        
-        // スライダーを用意.
-//        let rasterizeSlider = UISlider()
-//        rasterizeSlider.layer.position = CGPointMake(self.view.frame.midX, self.view.frame.maxY - 50)
-//        rasterizeSlider.layer.zPosition = 1
-//        rasterizeSlider.minimumValue = 0.5
-//        rasterizeSlider.maximumValue = 1.0
-//        rasterizeSlider.value = Float(1.0 - initRasterizeValue)
-//        rasterizeSlider.addTarget(self, action: "onValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
-//        self.view.addSubview(rasterizeSlider)
         
         // UIImageに変換.
         let myInputUIImage: UIImage = UIImage(CIImage: myInputImage!)
@@ -103,25 +94,15 @@ class MosaicViewController: UIViewController {
         self.view.addSubview(label)
     }
     
-    // Sliderの値が変わった時に呼ばれるメソッド
-    func onValueChanged(slider : UISlider){
-        
-        if myImageView != nil {
-            
-            let doubleNum: Double = atof(label.text!)
-            
-            // ラスタライズ化する.
-            myImageView!.layer.rasterizationScale = CGFloat(1.04 - doubleNum)
-        }
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     
     func myStartTime() {
+        
+        count = count+0.005
+        
         let currentTime = NSDate.timeIntervalSinceReferenceDate()
         
         // 現在の時間を調べるためにスタートします
@@ -147,6 +128,12 @@ class MosaicViewController: UIViewController {
         
         // 時間表示用のラベルに〔分〕〔秒〕〔ミリ秒〕を表示
         label.text = "\(timeMinutes):\(timeSeconds):\(timeFraction)"
+        
+        if myImageView != nil {
+            
+            // ラスタライズ化する.
+            myImageView!.layer.rasterizationScale = CGFloat(count)
+        }
     }
 
 }
