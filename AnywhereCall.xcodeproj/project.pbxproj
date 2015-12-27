@@ -22,6 +22,7 @@
 		ADB569791C2EB7EA0053B2C0 /* ProfileImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB569771C2EB7EA0053B2C0 /* ProfileImage.storyboard */; };
 		ADB5697C1C2EB83A0053B2C0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB5697A1C2EB83A0053B2C0 /* Login.storyboard */; };
 		ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */; };
+		ADB569901C2F75B40053B2C0 /* MosaicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		ADB569781C2EB7EA0053B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProfileImage.storyboard; sourceTree = "<group>"; };
 		ADB5697B1C2EB83A0053B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		ADB5697E1C2EB85D0053B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Top.storyboard; sourceTree = "<group>"; };
+		ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicViewController.swift; sourceTree = "<group>"; };
 		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +178,7 @@
 				AD3D81B71C24260200E9AEB3 /* TopViewController.swift */,
 				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
 				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
+				ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				AD656BD31C2E6E9A00B9979F /* CheckViewController.swift in Sources */,
 				217B71711C2B046F00EEBAD4 /* Phone.swift in Sources */,
 				AD656BD51C2E707900B9979F /* LoginViewController.swift in Sources */,
+				ADB569901C2F75B40053B2C0 /* MosaicViewController.swift in Sources */,
 				AD3D81B61C24260200E9AEB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

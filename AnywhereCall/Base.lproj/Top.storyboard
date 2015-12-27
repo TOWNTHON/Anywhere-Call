@@ -28,12 +28,21 @@
                                     <action selector="CallButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y2D-Er-6su"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuB-Eh-a2f">
+                                <rect key="frame" x="276" y="433" width="49" height="30"/>
+                                <state key="normal" title="Mosaic"/>
+                                <connections>
+                                    <segue destination="VIh-ey-bet" kind="show" id="eN9-1L-Qxu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wjP-0R-XWd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nmu-Rd-ROP"/>
                             <constraint firstItem="wjP-0R-XWd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qdj-xM-kZE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uuB-Eh-a2f" secondAttribute="bottom" constant="137" id="W6e-5n-65N"/>
                             <constraint firstItem="wjP-0R-XWd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="253" id="Yoq-nK-a4R"/>
+                            <constraint firstItem="uuB-Eh-a2f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jYc-u4-8UO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Oxf-Zr-lzK"/>
@@ -41,6 +50,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1652" y="722"/>
+        </scene>
+        <!--Mosaic View Controller-->
+        <scene sceneID="iUY-IQ-yOi">
+            <objects>
+                <viewController id="VIh-ey-bet" customClass="MosaicViewController" customModule="AnywhereCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cNN-xq-qq7"/>
+                        <viewControllerLayoutGuide type="bottom" id="NTU-7G-bAl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gtR-UB-owJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="L2c-46-8yi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RCN-fm-nrj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2325" y="722"/>
         </scene>
     </scenes>
 </document>
