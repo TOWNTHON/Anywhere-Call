@@ -24,7 +24,6 @@
 		ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */; };
 		ADB569901C2F75B40053B2C0 /* MosaicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */; };
 		ADB569971C2FBB9F0053B2C0 /* TimeCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */; };
-		ADB569991C2FE3C90053B2C0 /* calling.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADB569981C2FE3C80053B2C0 /* calling.gif */; };
 		ADB569AC1C3014780053B2C0 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AB1C3014780053B2C0 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADB569AE1C30148A0053B2C0 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB569AD1C30148A0053B2C0 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -73,7 +72,6 @@
 		ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicViewController.swift; sourceTree = "<group>"; };
 		ADB569941C2F91470053B2C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCount.swift; sourceTree = "<group>"; };
-		ADB569981C2FE3C80053B2C0 /* calling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = calling.gif; path = ../../../Documents/calling.gif; sourceTree = "<group>"; };
 		ADB5699B1C3008D30053B2C0 /* YLGIFImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YLGIFImage.framework; path = "Pods/../build/Debug-iphoneos/YLGIFImage.framework"; sourceTree = "<group>"; };
 		ADB5699E1C30095E0053B2C0 /* YLGIFImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLGIFImage.swift; sourceTree = "<group>"; };
 		ADB5699F1C30095E0053B2C0 /* YLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLImageView.swift; sourceTree = "<group>"; };
@@ -190,7 +188,6 @@
 			children = (
 				AD656BD21C2E6E9A00B9979F /* CheckViewController.swift */,
 				AD3D81B71C24260200E9AEB3 /* TopViewController.swift */,
-				ADB569981C2FE3C80053B2C0 /* calling.gif */,
 				AD656BD41C2E707900B9979F /* LoginViewController.swift */,
 				AD656BD61C2E7A5C00B9979F /* ProfileImageViewController.swift */,
 				ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */,
@@ -351,7 +348,6 @@
 				AD3D81C01C24260200E9AEB3 /* LaunchScreen.storyboard in Resources */,
 				AD3D81BD1C24260200E9AEB3 /* Assets.xcassets in Resources */,
 				ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */,
-				ADB569991C2FE3C90053B2C0 /* calling.gif in Resources */,
 				ADB569791C2EB7EA0053B2C0 /* ProfileImage.storyboard in Resources */,
 				ADB5697C1C2EB83A0053B2C0 /* Login.storyboard in Resources */,
 				AD3D81BB1C24260200E9AEB3 /* Main.storyboard in Resources */,
