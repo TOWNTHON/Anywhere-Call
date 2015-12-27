@@ -16,6 +16,8 @@ class TopViewController: UIViewController {
     @IBOutlet weak var CallView: UIImageView!
     let backgroundAnimationImage = FLAnimatedImageView()
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,6 +42,7 @@ class TopViewController: UIViewController {
     }
     
     func imageTapped(sender: UITapGestureRecognizer) {
+
         
         // ViewControllerを生成する.
         let myMosaicViewController: MosaicViewController = MosaicViewController()
@@ -59,6 +62,9 @@ class TopViewController: UIViewController {
 //        phone.sendCall()
 
     }
+    
+    
+    
 
 }
 
