@@ -23,8 +23,7 @@
 		ADB5697C1C2EB83A0053B2C0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB5697A1C2EB83A0053B2C0 /* Login.storyboard */; };
 		ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */; };
 		ADB569901C2F75B40053B2C0 /* MosaicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */; };
-		ADB569931C2F84470053B2C0 /* Mosaic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB569911C2F84470053B2C0 /* Mosaic.storyboard */; };
-		ADB569951C2F91470053B2C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB569941C2F91470053B2C0 /* QuartzCore.framework */; };
+		ADB569971C2FBB9F0053B2C0 /* TimeCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +68,8 @@
 		ADB5697B1C2EB83A0053B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		ADB5697E1C2EB85D0053B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Top.storyboard; sourceTree = "<group>"; };
 		ADB5698F1C2F75B40053B2C0 /* MosaicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicViewController.swift; sourceTree = "<group>"; };
-		ADB569921C2F84470053B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mosaic.storyboard; sourceTree = "<group>"; };
 		ADB569941C2F91470053B2C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCount.swift; sourceTree = "<group>"; };
 		FFEB9137EBA03B8A02607623 /* Pods-AnywhereCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnywhereCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnywhereCall/Pods-AnywhereCall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB569951C2F91470053B2C0 /* QuartzCore.framework in Frameworks */,
 				684EFEAE8258DA29DC509566 /* Pods_AnywhereCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +168,6 @@
 			children = (
 				AD3D81B91C24260200E9AEB3 /* Main.storyboard */,
 				ADB5697D1C2EB85D0053B2C0 /* Top.storyboard */,
-				ADB569911C2F84470053B2C0 /* Mosaic.storyboard */,
 				ADB5697A1C2EB83A0053B2C0 /* Login.storyboard */,
 				ADB569771C2EB7EA0053B2C0 /* ProfileImage.storyboard */,
 			);
@@ -193,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				217B71701C2B046F00EEBAD4 /* Phone.swift */,
+				ADB569961C2FBB9F0053B2C0 /* TimeCount.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -315,7 +313,6 @@
 			files = (
 				AD3D81C01C24260200E9AEB3 /* LaunchScreen.storyboard in Resources */,
 				AD3D81BD1C24260200E9AEB3 /* Assets.xcassets in Resources */,
-				ADB569931C2F84470053B2C0 /* Mosaic.storyboard in Resources */,
 				ADB5697F1C2EB85D0053B2C0 /* Top.storyboard in Resources */,
 				ADB569791C2EB7EA0053B2C0 /* ProfileImage.storyboard in Resources */,
 				ADB5697C1C2EB83A0053B2C0 /* Login.storyboard in Resources */,
@@ -394,6 +391,7 @@
 			files = (
 				AD656BD71C2E7A5C00B9979F /* ProfileImageViewController.swift in Sources */,
 				AD3D81B81C24260200E9AEB3 /* TopViewController.swift in Sources */,
+				ADB569971C2FBB9F0053B2C0 /* TimeCount.swift in Sources */,
 				AD656BD31C2E6E9A00B9979F /* CheckViewController.swift in Sources */,
 				217B71711C2B046F00EEBAD4 /* Phone.swift in Sources */,
 				AD656BD51C2E707900B9979F /* LoginViewController.swift in Sources */,
@@ -472,14 +470,6 @@
 				ADB5697E1C2EB85D0053B2C0 /* Base */,
 			);
 			name = Top.storyboard;
-			sourceTree = "<group>";
-		};
-		ADB569911C2F84470053B2C0 /* Mosaic.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADB569921C2F84470053B2C0 /* Base */,
-			);
-			name = Mosaic.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

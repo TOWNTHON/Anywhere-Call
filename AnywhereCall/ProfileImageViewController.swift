@@ -10,6 +10,8 @@ import UIKit
 
 class ProfileImageViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
+    @IBOutlet weak var ProfileImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -72,6 +74,7 @@ class ProfileImageViewController: UIViewController,UIImagePickerControllerDelega
         if info[UIImagePickerControllerOriginalImage] != nil {
             let image = info[UIImagePickerControllerOriginalImage] as! UIImage
             print(image)
+            ProfileImageView.image = image
         }
     
         picker.dismissViewControllerAnimated(true, completion: nil)

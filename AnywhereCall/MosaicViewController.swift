@@ -7,8 +7,27 @@
 //
 
 import UIKit
-import CoreImage
-import QuartzCore
+
+extension UIImage{
+    
+    // 画像をResizeするクラスメソッド.
+    class func ResizeÜIImage(image : UIImage, width : CGFloat, height : CGFloat)-> UIImage!{
+        
+        // 指定された画像の大きさのコンテキストを用意.
+        UIGraphicsBeginImageContext(CGSizeMake(width, height))
+        
+        // コンテキストに画像を描画する.
+        image.drawInRect(CGRectMake(0, 0, width, height))
+        
+        // コンテキストからUIImageを作る.
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        
+        // コンテキストを閉じる.
+        UIGraphicsEndImageContext()
+        
+        return newImage
+    }
+}
 
 class MosaicViewController: UIViewController {
 
@@ -18,37 +37,46 @@ class MosaicViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // ラスタライズ化の初期化値.
+        let initRasterizeValue : CGFloat = 0.04
+        
+        // スライダーを用意.
+        let rasterizeSlider = UISlider()
+        rasterizeSlider.layer.position = CGPointMake(self.view.frame.midX, self.view.frame.maxY - 50)
+        rasterizeSlider.layer.zPosition = 1
+        rasterizeSlider.minimumValue = 0.5
+        rasterizeSlider.maximumValue = 1.0
+        rasterizeSlider.value = Float(1.0 - initRasterizeValue)
+        rasterizeSlider.addTarget(self, action: "onValueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        self.view.addSubview(rasterizeSlider)
+        
         // UIImageに変換.
         let myInputUIImage: UIImage = UIImage(CIImage: myInputImage!)
         
-        // ImageView.
-        myImageView = UIImageView(frame: CGRectMake(0, 0, 400, 640))
-        myImageView.image = myInputUIImage
-        myImageView.layer.shouldRasterize = true
-        myImageView.layer.rasterizationScale = 0.1
-        myImageView.layer.minificationFilter = kCAFilterTrilinear
-        myImageView.layer.magnificationFilter = kCAFilterNearest
+        // リサイズされたUIImageを指定して、UIImageViewを作る.
+        myImageView = UIImageView(image: UIImage.ResizeÜIImage(myInputUIImage, width: self.view.frame.maxX, height: self.view.frame.maxY))
         
-        self.view.addSubview(myImageView)
+        if myImageView != nil {
+            
+            // ラスタライズ化する.
+            myImageView!.layer.shouldRasterize = true
+            
+            // 値の初期化.
+            myImageView!.layer.rasterizationScale = initRasterizeValue
+            
+            self.view.addSubview(myImageView!)
+        }
+    }
+    
+    // Sliderの値が変わった時に呼ばれるメソッド
+    func onValueChanged(slider : UISlider){
         
-//        // CIFilterを生成。nameにどんなを処理するのか記入.
-//        let myPixellateFilter = CIFilter(name: "CIPixellate")
-//        
-//        // ぼかし処理をいれたい画像をセット.
-//        myPixellateFilter!.setValue(myInputImage, forKey: kCIInputImageKey)
-//        
-//        // フィルターを通した画像をアウトプット.
-//        let myOutputImage : CIImage = myPixellateFilter!.outputImage!
-//        
-//        // UIImageに変換.
-//        let myOutputUIImage: UIImage = UIImage(CIImage: myOutputImage)
-//        
-//        // 再びUIViewにセット
-//        myImageView.image = myOutputUIImage
-//        
-//        // 再描画.
-//        myImageView.setNeedsDisplay()
-
+        if myImageView != nil {
+            
+            // ラスタライズ化する.
+            myImageView!.layer.rasterizationScale = CGFloat(1.04 - slider.value)
+        }
     }
     
     override func didReceiveMemoryWarning() {
