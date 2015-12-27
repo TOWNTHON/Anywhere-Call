@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Profile Image View Controller-->
@@ -18,7 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHY-pM-uSa">
-                                <rect key="frame" x="228" y="182" width="165" height="30"/>
+                                <rect key="frame" x="91" y="42" width="441" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="441" id="Yuz-ce-shn"/>
+                                    <constraint firstAttribute="height" constant="315" id="fFd-Li-d33"/>
+                                </constraints>
                                 <state key="normal" title="プロフィール写真を選ぶ"/>
                                 <connections>
                                     <action selector="selectProfileImageButton:" destination="TKO-aL-Cuh" eventType="touchUpInside" id="SsA-dp-3Bf"/>
@@ -31,17 +36,27 @@
                                     <segue destination="dGf-BK-8jc" kind="showDetail" id="P7N-5a-czO"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oci-RZ-6DS">
+                                <rect key="frame" x="91" y="42" width="441" height="315"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="d44-oq-3Fu" firstAttribute="top" secondItem="oci-RZ-6DS" secondAttribute="bottom" constant="8" symbolic="YES" id="8hq-Nk-xN8"/>
+                            <constraint firstItem="oci-RZ-6DS" firstAttribute="top" secondItem="8MN-Cj-NCu" secondAttribute="bottom" constant="22" id="DvD-To-wpM"/>
                             <constraint firstItem="F8h-WJ-9dC" firstAttribute="top" secondItem="d44-oq-3Fu" secondAttribute="bottom" constant="205" id="ETw-j1-Ceb"/>
-                            <constraint firstItem="lHY-pM-uSa" firstAttribute="top" secondItem="8MN-Cj-NCu" secondAttribute="bottom" constant="162" id="KAd-9z-0Tc"/>
-                            <constraint firstItem="lHY-pM-uSa" firstAttribute="centerX" secondItem="1em-W7-f5U" secondAttribute="centerX" constant="10.5" id="Qpd-PZ-8p4"/>
+                            <constraint firstItem="oci-RZ-6DS" firstAttribute="leading" secondItem="1em-W7-f5U" secondAttribute="leadingMargin" constant="71" id="HrB-So-OdO"/>
+                            <constraint firstItem="lHY-pM-uSa" firstAttribute="top" secondItem="8MN-Cj-NCu" secondAttribute="bottom" constant="22" id="KAd-9z-0Tc"/>
+                            <constraint firstItem="lHY-pM-uSa" firstAttribute="centerX" secondItem="1em-W7-f5U" secondAttribute="centerX" constant="11.5" id="Qpd-PZ-8p4"/>
+                            <constraint firstItem="oci-RZ-6DS" firstAttribute="centerX" secondItem="1em-W7-f5U" secondAttribute="centerX" constant="11.5" id="nH6-b5-As8"/>
                             <constraint firstItem="d44-oq-3Fu" firstAttribute="centerX" secondItem="1em-W7-f5U" secondAttribute="centerX" constant="10" id="oR5-zu-GAW"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SGD-tA-uiK"/>
                     <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="ProfileImageView" destination="oci-RZ-6DS" id="1Xx-m3-KRJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4XT-vF-RoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -27,24 +26,20 @@
                                     <constraint firstAttribute="width" constant="203" id="CBb-Y3-3RD"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-1024-white" translatesAutoresizingMaskIntoConstraints="NO" id="z0n-eP-PCH">
-                                <rect key="frame" x="180" y="101" width="240" height="240"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="CRy-eX-wst"/>
-                                    <constraint firstAttribute="width" constant="240" id="Tlj-zY-eIY"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icon-1024-white" translatesAutoresizingMaskIntoConstraints="NO" id="z0n-eP-PCH">
+                                <rect key="frame" x="187" y="132" width="227" height="227"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mfx-D4-yha" firstAttribute="top" secondItem="z0n-eP-PCH" secondAttribute="bottom" constant="48" id="7ln-gu-x45"/>
-                            <constraint firstItem="z0n-eP-PCH" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="81" id="Kpu-5F-eLR"/>
-                            <constraint firstItem="z0n-eP-PCH" firstAttribute="centerX" secondItem="7PW-7p-mat" secondAttribute="centerX" id="VZF-0g-8eE"/>
-                            <constraint firstItem="7PW-7p-mat" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="Z6z-ti-Sdx"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7PW-7p-mat" secondAttribute="bottom" id="cbL-0A-hz1"/>
-                            <constraint firstItem="z0n-eP-PCH" firstAttribute="centerX" secondItem="mfx-D4-yha" secondAttribute="centerX" id="lB8-0b-tIc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7PW-7p-mat" secondAttribute="trailing" constant="-20" id="lCh-Fl-Ee1"/>
-                            <constraint firstItem="7PW-7p-mat" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="vRh-A6-BeK"/>
+                            <constraint firstItem="mfx-D4-yha" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="H38-jD-mKy"/>
+                            <constraint firstItem="mfx-D4-yha" firstAttribute="top" secondItem="z0n-eP-PCH" secondAttribute="bottom" constant="30" id="RU6-KI-GJJ"/>
+                            <constraint firstItem="7PW-7p-mat" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VAx-mg-tZn"/>
+                            <constraint firstItem="7PW-7p-mat" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Vag-dt-n73"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="mfx-D4-yha" secondAttribute="bottom" constant="143" id="Z0w-ho-TG1"/>
+                            <constraint firstItem="mfx-D4-yha" firstAttribute="centerX" secondItem="7PW-7p-mat" secondAttribute="centerX" id="bca-wy-S56"/>
+                            <constraint firstItem="mfx-D4-yha" firstAttribute="centerX" secondItem="z0n-eP-PCH" secondAttribute="centerX" id="laS-QB-d1G"/>
+                            <constraint firstItem="7PW-7p-mat" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="o23-28-Zal"/>
                         </constraints>
                     </view>
                 </viewController>

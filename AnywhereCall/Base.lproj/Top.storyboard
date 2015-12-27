@@ -32,7 +32,7 @@
                                 <rect key="frame" x="276" y="433" width="49" height="30"/>
                                 <state key="normal" title="Mosaic"/>
                                 <connections>
-                                    <segue destination="itA-lc-UrT" kind="show" id="eN9-1L-Qxu"/>
+                                    <segue destination="mSy-fO-kvT" kind="show" id="bcC-jg-TGS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,13 +51,23 @@
             </objects>
             <point key="canvasLocation" x="1652" y="722"/>
         </scene>
-        <!--Mosaic-->
-        <scene sceneID="fDC-qi-FbE">
+        <!--Mosaic View Controller-->
+        <scene sceneID="aUA-cU-TcC">
             <objects>
-                <viewControllerPlaceholder storyboardName="Mosaic" id="itA-lc-UrT" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QSl-bP-CNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="mSy-fO-kvT" customClass="MosaicViewController" customModule="AnywhereCall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zba-V1-CRq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yfy-vi-RfE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ThG-O5-R7a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8F-f1-1eI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2325" y="722"/>
+            <point key="canvasLocation" x="2377" y="727"/>
         </scene>
     </scenes>
 </document>
