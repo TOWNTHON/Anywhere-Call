@@ -15,10 +15,8 @@ public class Phone {
         let twilioSecret = "30c534e6e1acf6025efadf5c9558b436"
         
         //発信元電話番号
-        let fromNumber = "%2B815031775709"
-        //発信先電話番号
-        var toNumber : String = ""
-        
+        let twilioNumber = "%2B815031775709"
+
         
         // 会員情報APIに接続
         let perInfoApi = NSMutableURLRequest(URL: NSURL(string:"http://anywherecall.html.xdomain.jp/per_info.json")!)
@@ -32,17 +30,15 @@ public class Phone {
                 print("Response: \(responseDetails)")
                 
                 let json = JSON(data:data)
-                if let tel = json["per_info"][0]["tel"].string{
-                    toNumber = tel
-                    print("toNumber: \(toNumber)")
-                }
                 
-                
+                let selfTel = json["self_tel"].string
+                let other_party_tel = json["other_party_info"][1]["tel"].string
+                let other_party_name = json["other_party_info"][1]["name"].string
                 
                 // twilio APIに渡すリクエスト情報の設定
                 let request = NSMutableURLRequest(URL: NSURL(string:"https://\(twilioSID):\(twilioSecret)@api.twilio.com/2010-04-01/Accounts/\(twilioSID)/Calls.json")!)
                 request.HTTPMethod = "POST"
-                request.HTTPBody = "From=\(fromNumber)&To=\(toNumber)&Url=http://anywherecall.php.xdomain.jp/process_gather.php".dataUsingEncoding(NSUTF8StringEncoding)
+                request.HTTPBody = "From=\(twilioNumber)&To=\(selfTel)&Url=http://anywherecall.php.xdomain.jp/process_gather.php?name=\(other_party_name)&tel=\(other_party_tel)".dataUsingEncoding(NSUTF8StringEncoding)
                 
                 
                 // twilio API実行
